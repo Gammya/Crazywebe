@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_name">Crazy Time</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="asset_statements">[{ \"include\": \"https://yoomoney.ru/.well-known/assetlinks.json\" }]</string>
+    <string name="auth_about_app_links_headline">App</string>
+    <string name="auth_about_app_links_open">Open</string>
+    <string name="auth_about_banner_button">Download</string>
+    <string name="auth_about_banner_text">Transaction history, transfers, and payments always at hand</string>
+    <string name="auth_about_banner_title">YooMoney app</string>
+    <string name="auth_about_links_headline">Quick links</string>
+    <string name="auth_about_links_yoomoney">YooMoney website</string>
+    <string name="auth_about_more_headline">Other features available in YooMoney</string>
+    <string name="auth_about_more_text">YooMoney is one of the biggest payment services in Russia. You can pay any bills, fines, or loans on our website or in the app.</string>
+    <string name="auth_about_text">"Service for online and offline payments. 
+It helps to pay for products and services, transfer and receive money. 
+In YooMoney, you can create an electronic wallet and issue a virtual bank card quickly and for free."</string>
+    <string name="auth_about_title">YooMoney</string>
+    <string name="auth_about_yoomoney">YooMoney</string>
+    <string name="auth_account_not_found">No such account found</string>
+    <string name="auth_account_not_found_error">User account not found</string>
+    <string name="auth_action_try_again">Try again</string>
+    <string name="auth_allow_access_dialog_message">"You can't sign in with no access to this information: we'll send you back to the start"</string>
+    <string name="auth_allow_access_dialog_negative_action">Deny</string>
+    <string name="auth_allow_access_dialog_positive_action">Allow</string>
+    <string name="auth_allow_access_dialog_title">Access required to sign in</string>
+    <string name="auth_allow_access_negative_action">Deny</string>
+    <string name="auth_allow_access_positive_action">Allow</string>
+    <string name="auth_allow_access_subtitle">"The %s app is requesting access: 
+"</string>
+    <string name="auth_allow_access_title">Allow access to the information</string>
+    <string name="auth_bindind_sber_id_waiting_action">Try again</string>
+    <string name="auth_bindind_sber_id_waiting_subtitle">Если ничего не происходит, попробуйте ещё</string>
+    <string name="auth_bindind_sber_id_waiting_title">Waiting for response from Sberbank</string>
+    <string name="auth_change_email_confirmation_dialog_accept">Yes, change</string>
+    <string name="auth_change_email_confirmation_dialog_decline">Don`t</string>
+    <string name="auth_change_email_confirmation_dialog_text">You might need your phone and access to your current email address</string>
+    <string name="auth_change_email_confirmation_dialog_title">Change the email address?</string>
+    <string name="auth_change_email_success_button">OK</string>
+    <string name="auth_change_email_success_text_add">"Now you can use it for signing in to your account and access recovery. 
+Receipts and important notifications about your account will be sent to this email address."</string>
+    <string name="auth_change_email_success_text_add_marketing">"Now you can use it for signing in to your account and access recovery. 
+ 
+Receipts and important notifications about your account as well as news and promotions will be sent to this email address."</string>
+    <string name="auth_change_email_success_text_changed">"Use it for signing in to your account and access recovery. 
+ 
+Notifications (if enabled) and receipts will be sent to the new email address."</string>
+    <string name="auth_change_email_success_title_add">Done! New email added: %s</string>
+    <string name="auth_change_email_success_title_change">Done! New email linked: %s</string>
+    <string name="auth_change_password_confirmation_dialog_accept">Yes, change</string>
+    <string name="auth_change_password_confirmation_dialog_decline">No</string>
+    <string name="auth_change_password_confirmation_dialog_text">"After changing your password, you'll need to sign in to your account again: on all devices"</string>
+    <string name="auth_change_password_confirmation_dialog_title">Change password</string>
+    <string name="auth_change_password_finish_button">Sign in to your account</string>
+    <string name="auth_change_password_finish_text">Now you need to sign in to your account again, using the new password this time</string>
+    <string name="auth_change_password_finish_title">Done! Password changed</string>
+    <string name="auth_change_password_success_button">OK</string>
+    <string name="auth_change_password_success_text">Done! Account password changed</string>
+    <string name="auth_change_phone_confirmation_dialog_accept">Yes, change</string>
+    <string name="auth_change_phone_confirmation_dialog_decline">No</string>
+    <string name="auth_change_phone_confirmation_dialog_text">"First, we'll send a text message containing a code to the current number. You'll need to enter it at the next step"</string>
+    <string name="auth_change_phone_confirmation_dialog_title">Change phone number?</string>
+    <string name="auth_change_phone_success_button">OK</string>
+    <string name="auth_change_phone_success_text">You can use it to sign in to your account. Text message codes for confirming transactions will also be sent to this phone number.</string>
+    <string name="auth_change_phone_success_title">Done! New phone number linked: %s</string>
+    <string name="auth_contact_dialog_email">Contact via email</string>
+    <string name="auth_contact_dialog_phone">Call %s</string>
+    <string name="auth_contact_technical_support">Contact the Support Service</string>
+    <string name="auth_default_error">"Something's wrong. Please come back a bit later."</string>
+    <string name="auth_default_sber_id_error">Try signing in differently: using phone number or email address</string>
+    <string name="auth_display_name_placeholder">Your name</string>
+    <string name="auth_email_already_taken_error">This address is already taken, try a different one</string>
+    <string name="auth_email_change">Add email address</string>
+    <string name="auth_email_change_action">Get an email containing the code</string>
+    <string name="auth_email_confirm_action_text">Next</string>
+    <string name="auth_email_confirm_forgot">"I can't receive the email"</string>
+    <string name="auth_email_confirm_help">Help</string>
+    <string name="auth_email_confirm_label">Code for %s</string>
+    <string name="auth_email_confirm_retry_action_text">Get a new code</string>
+    <string name="auth_email_confirm_retry_timer_text">Get a new code in %s</string>
+    <string name="auth_email_confirm_screen_title">Now, the code from the email</string>
+    <string name="auth_email_confirm_support_button">Contact the Support Service</string>
+    <string name="auth_email_confirm_support_text">Если вы не можете получить письмо, напишите нам — разберёмся вместе.</string>
+    <string name="auth_email_confirmation_help_description">"— There's a typo in the address (check every character) 
+— The email got sorted into the spam folder 
+If there's nothing in the spam folder, the email address is entered correctly, and you can't receive new emails either, contact us."</string>
+    <string name="auth_email_confirmation_help_title">"Why can't I receive the email?"</string>
+    <string name="auth_email_enter_action_text">Get an email containing the code</string>
+    <string name="auth_email_enter_input_description">For receipts and notifications</string>
+    <string name="auth_email_enter_input_hint">example@example.com</string>
+    <string name="auth_email_enter_input_label">Email address</string>
+    <string name="auth_email_enter_is_not_valid_hint">Something wrong with the address</string>
+    <string name="auth_email_enter_offers_description">"I'd like to receive news about the service, discounts, and surveys: not more than once a week"</string>
+    <string name="auth_email_enter_screen_title">Enter your email address</string>
+    <string name="auth_email_quarantined_error">"Use a different email address. You've deleted a wallet using this address once, and you can't use it again"</string>
+    <string name="auth_enter_password_error_last_attempt">%1$s. This is the last attempt</string>
+    <string name="auth_enter_password_error_many_attempts">%1$s. Attempts left: %2$d</string>
+    <string name="auth_error_code_expired_error">Code expired: you need to get a new one</string>
+    <string name="auth_error_invalid_code">Incorrect code. Please check and try again</string>
+    <string name="auth_error_invalid_code_last_attempt">Incorrect again. One last attempt left</string>
+    <string name="auth_error_invalid_code_no_attempts">Incorrect code again. Out of attempts</string>
+    <string name="auth_error_no_app_market">You have no app-market applications</string>
+    <string name="auth_error_no_browser">You have no web browser apps</string>
+    <string name="auth_error_no_dialer">You have no apps for calls</string>
+    <string name="auth_error_no_email_client">You have no apps for sending emails</string>
+    <string name="auth_finishing_failure_button">OK</string>
+    <string name="auth_finishing_failure_support_button">Contact the Support Service</string>
+    <string name="auth_finishing_failure_title">"It didn't work"</string>
+    <string name="auth_fraud_suspected_error">"It might've been a one-time technical error"</string>
+    <string name="auth_hard_migration_action">"OK, let's go!"</string>
+    <string name="auth_hard_migration_action_subtitle">"It doesn't change any limits, commission rates, or other terms of use of the wallet in any way: &lt;a href=\"https://new.yoomoney.ru/\">learn more&lt;/a>"</string>
+    <string name="auth_hard_migration_subtitle">"You used to sign in to your wallet using your Yandex username and password, now you need a YooMoney account instead. 
+ 
+Let us help you get it: 
+— sign in using your Yandex username and password, 
+— allow YooMoney to access your name and email address, 
+— create a new password. 
+ 
+You'll get a YooMoney account with the same wallet that you've had in it. Email address and password are used for signing in, and text message codes are used for confirming actions."</string>
+    <string name="auth_hard_migration_title">Time to switch to YooMoney</string>
+    <string name="auth_illegal_parameters_common_error">Something is wrong. Please double check the data you entered</string>
+    <string name="auth_loading_sber_dialog_cancel">Cancel</string>
+    <string name="auth_loading_sber_dialog_ok">OK</string>
+    <string name="auth_loading_sber_dialog_title">The YooMoney app wants to open the Sberbank app</string>
+    <string name="auth_login_enter_action_text">Next</string>
+    <string name="auth_login_enter_informer_action">Learn more</string>
+    <string name="auth_login_enter_informer_message">"If you signed up 
+before October 13, you need to switch to YooMoney "</string>
+    <string name="auth_login_enter_input_label">Email address or phone number</string>
+    <string name="auth_login_enter_screen_title">Sign in</string>
+    <string name="auth_login_enter_subtitle">All-in-one account</string>
+    <string name="auth_login_illegal_value_error">Enter your mobile phone number or email address</string>
+    <string name="auth_login_information_message">"Здравствуйте! Случилось что-то невнятное, и мы куда-то переносим ваш кошелёк.
+
+Есть подозрение, что в конечном итоге для вас ничего не поменяется (хотя кто знает).
+
+Введите свой пароль, подтвердите мобильный телефон, и дальше можно пользоваться кошельком как обычно. Наверное."</string>
+    <string name="auth_login_information_title">Про единый акаунт</string>
+    <string name="auth_max_succeeded_password_attempts_reached">This was the last attempt</string>
+    <string name="auth_max_wrong_password_attempts_reached">This was the last attempt</string>
+    <string name="auth_migration_go_to_yoomoney">You need to download the YooMoney app to transfer your account</string>
+    <string name="auth_network_connection_error">Looks like the connection is lost. Please check</string>
+    <string name="auth_nickname_action_text">Save</string>
+    <string name="auth_nickname_create_name_success_message">Done! Your name added</string>
+    <string name="auth_nickname_illegal_nickname_error">Some symbol is not suitable. Enter another name</string>
+    <string name="auth_nickname_input_label">Your name or nickname</string>
+    <string name="auth_nickname_menu_cancel">Cancel</string>
+    <string name="auth_nickname_new_name_success_message">Done! New name saved</string>
+    <string name="auth_nickname_title_change_name">Enter new name</string>
+    <string name="auth_nickname_title_new_name">"What's your name"</string>
+    <string name="auth_oauth_failure_action">Start over</string>
+    <string name="auth_oauth_failure_subtitle">"Try signing in differently: 
+using phone number or email address"</string>
+    <string name="auth_oauth_failure_title">"It didn't work"</string>
+    <string name="auth_oauth_not_found_action_text">"I'll create a new wallet"</string>
+    <string name="auth_oauth_not_found_sber_id_title">Sber ID</string>
+    <string name="auth_oauth_not_found_secondary_action_text">"I'll sign in to my wallet"</string>
+    <string name="auth_oauth_not_found_subtitle">"To do it, sign in to your wallet or create a new one. 
+Please note: %s can be linked only to one wallet."</string>
+    <string name="auth_oauth_not_found_title">"Now let's link 
+the wallet to %s"</string>
+    <string name="auth_passport_profile_email">Email address</string>
+    <string name="auth_passport_profile_email_change">Change the email address</string>
+    <string name="auth_passport_profile_name">Name</string>
+    <string name="auth_passport_profile_name_change">Add</string>
+    <string name="auth_passport_profile_password">Password</string>
+    <string name="auth_passport_profile_password_change">Change password</string>
+    <string name="auth_passport_profile_personal_data">Personal information</string>
+    <string name="auth_passport_profile_phone">Phone number</string>
+    <string name="auth_passport_profile_phone_change">Add phone number</string>
+    <string name="auth_passport_profile_region">Region</string>
+    <string name="auth_passport_profile_sber_account_title">Sber ID</string>
+    <string name="auth_passport_profile_security">Security</string>
+    <string name="auth_passport_profile_social_account_link_action">Link</string>
+    <string name="auth_passport_profile_social_account_unlink_action">Unlink</string>
+    <string name="auth_passport_profile_social_accounts_title">Other accounts</string>
+    <string name="auth_password_change_screen_title">Create a password</string>
+    <string name="auth_password_contains_non_allowed_symbols_error">You can only use Latin letters and special characters</string>
+    <string name="auth_password_create_action_text">Next</string>
+    <string name="auth_password_create_first_input_label">Password</string>
+    <string name="auth_password_create_screen_title">Create a password</string>
+    <string name="auth_password_create_second_input_label">Enter the password again</string>
+    <string name="auth_password_create_second_password_error">"Passwords don't match. Check and try again"</string>
+    <string name="auth_password_create_validation_letters">Latin letters: upper and lower case</string>
+    <string name="auth_password_create_validation_numbers">Numbers</string>
+    <string name="auth_password_create_validation_symbols_count">At least 8 characters</string>
+    <string name="auth_password_enter_account_title">Current password</string>
+    <string name="auth_password_enter_action_text">Next</string>
+    <string name="auth_password_enter_forgot_button">"I don't remember my password"</string>
+    <string name="auth_password_enter_input_label">Password</string>
+    <string name="auth_password_enter_invalid_password_error">Invalid password.</string>
+    <string name="auth_password_enter_invalid_password_or_account_error">"Incorrect. Check the password and the account that you're trying to sign in to"</string>
+    <string name="auth_password_enter_title">Enter your password</string>
+    <string name="auth_password_enter_warning_text">"Don't share it with anyone: only fraudsters ask for passwords and text message codes"</string>
+    <string name="auth_password_recovery_dialog_title">"We'll tell you how to recover your password"</string>
+    <string name="auth_password_recovery_phone">Phone number</string>
+    <string name="auth_password_recovery_phone_disable">I have no access to the phone number</string>
+    <string name="auth_password_recovery_success_dialog_action">Okay</string>
+    <string name="auth_password_recovery_success_dialog_description">Now you can sign in to your account using the new password</string>
+    <string name="auth_password_recovery_success_dialog_title">Password changed</string>
+    <string name="auth_phone_action_change_country">Different country</string>
+    <string name="auth_phone_change_screen_title">Enter new phone number</string>
+    <string name="auth_phone_confirm_action_text">Next</string>
+    <string name="auth_phone_confirm_default_input_label">Code: at least %s characters</string>
+    <string name="auth_phone_confirm_description">"Verification code sent 
+to %s"</string>
+    <string name="auth_phone_confirm_forgot">I have no access to my phone number</string>
+    <string name="auth_phone_confirm_help">Help</string>
+    <string name="auth_phone_confirm_retry_action_text">Get a new code</string>
+    <string name="auth_phone_confirm_retry_timer_text">Get a new code in %s</string>
+    <string name="auth_phone_confirm_title">Enter the text message code</string>
+    <string name="auth_phone_confirmation_help_action">Contact the Support Service</string>
+    <string name="auth_phone_confirmation_help_description">"— It's just being delayed for a couple of minutes, it happens sometimes 
+— Your mobile carrier is having technical difficulties 
+If everything's alright on the mobile carrier's side but you can't receive the text message even on the third attempt, contact us."</string>
+    <string name="auth_phone_confirmation_help_title">"Why can't I receive the text message?"</string>
+    <string name="auth_phone_countries_screen_title">Countries</string>
+    <string name="auth_phone_enter_about">What is YooMoney?</string>
+    <string name="auth_phone_enter_action_text">Get a text message code</string>
+    <string name="auth_phone_enter_label">Phone number (%s)</string>
+    <string name="auth_phone_enter_screen_subtitle">For your account</string>
+    <string name="auth_phone_enter_screen_title">Your phone number</string>
+    <string name="auth_phone_enter_yoomoney_title">Your phone number</string>
+    <string name="auth_phone_is_already_assigned_to_account_without_email">This phone number is linked to a different account. Enter your email address or select a different phone number.</string>
+    <string name="auth_phone_is_same_as_current">New phone number is the same as the current one</string>
+    <string name="auth_phone_select_action_text">Next</string>
+    <string name="auth_phone_select_form_title">Selected number</string>
+    <string name="auth_phone_select_screen_description">There are multiple phone numbers linked to this account: select which one to keep for text message codes and access recovery.</string>
+    <string name="auth_phone_select_screen_title">Select phone number</string>
+    <string name="auth_phone_too_many_accounts_error">This phone number is used for 10 different accounts: enter a different number</string>
+    <string name="auth_qr_failure_rescan">Try again</string>
+    <string name="auth_qr_failure_subtitle_fail">It was probably a technical error: try again or use a different sign-in method: for example, using your phone number or email address.</string>
+    <string name="auth_qr_failure_subtitle_refresh">Refresh the QR code on the sign-in page and scan it again</string>
+    <string name="auth_qr_failure_title_canceled">Everything was canceled, but you can try again</string>
+    <string name="auth_qr_failure_title_fail">It did not work</string>
+    <string name="auth_qr_failure_title_time_out">The pause is getting too long</string>
+    <string name="auth_qr_info_accept">Confirm sign-in</string>
+    <string name="auth_qr_info_deny">Cancel</string>
+    <string name="auth_qr_info_subtitle">"Information about device: 
+%s"</string>
+    <string name="auth_qr_info_title">Trying to sign in to YooMoney on PC?</string>
+    <string name="auth_qr_success_ok">Done</string>
+    <string name="auth_qr_success_subtitle">"You signed in to your account 
+on the YooMoney website"</string>
+    <string name="auth_qr_success_title">Finished</string>
+    <string name="auth_remote_config_offer_has_email">By clicking this button, I confirm that I’m aware of &lt;a href=\"https://yoomoney.ru/legal\"> all the legal terms and conditions of the service&lt;/a> and I accept them</string>
+    <string name="auth_remote_config_offer_no_email">By clicking this button, I confirm that I’m aware of &lt;a href=\"https://yoomoney.ru/legal\"> all the legal terms and conditions of the service&lt;/a> and I accept them as well as the fact that if I don’t enable notifications to my email address or phone number, my transaction history in the YooMoney app or on the website will be the only available source of information</string>
+    <string name="auth_reset_process_dialog_action">OK</string>
+    <string name="auth_reset_process_dialog_message_enrollment">"Your registration has been going on for too long. Let's try again"</string>
+    <string name="auth_reset_process_dialog_message_login">"You've been trying to sign in for over an hour. Let's try again"</string>
+    <string name="auth_reset_process_dialog_message_other">"This pause has been going on for too long: let's try again"</string>
+    <string name="auth_reset_process_dialog_title">You need to start over</string>
+    <string name="auth_sber_id_binding_error_dialog_action">OK</string>
+    <string name="auth_sber_id_binding_success_dialog_action">OK</string>
+    <string name="auth_sber_id_binding_success_dialog_title">Done! Now you can sign in via Sber ID (or using your phone number and email address as usual).</string>
+    <string name="auth_sber_id_host" />
+    <string name="auth_sber_id_scheme" />
+    <string name="auth_select_account_actives">Active</string>
+    <string name="auth_select_account_create_new_account">Create a new account</string>
+    <string name="auth_select_account_enrollment_screen_title">You have other accounts</string>
+    <string name="auth_select_account_login_screen_title">Select the account</string>
+    <string name="auth_select_account_need_migration">Transfer your account to YooMoney</string>
+    <string name="auth_select_email_action_text">Next</string>
+    <string name="auth_select_email_screen_subtitle">There are multiple email addresses linked to the %s account: select which one to keep for signing in and access recovery.</string>
+    <string name="auth_select_email_screen_title">Select email address</string>
+    <string name="auth_select_email_selector_title">Selected address</string>
+    <string name="auth_social_account_already_bound_error">A different wallet is already linked to this Sber ID</string>
+    <string name="auth_social_account_invalid_oauth">"It didn't work, please try again"</string>
+    <string name="auth_soft_migration_action">"OK, let's go!"</string>
+    <string name="auth_soft_migration_action_subtitle">"It doesn't change any limits, commission rates, or other terms of use of the wallet in any way: &lt;a href=\"https://new.yoomoney.ru/\">learn more&lt;/a>"</string>
+    <string name="auth_soft_migration_subtitle">"Your wallet is now in YooMoney, separate from your Yandex account. 
+ 
+— What remains as it was before: your wallet number, settings configuration, and terms of use. 
+ 
+— What's changed: you'll use your email address or phone number instead of your username (like in Yandex). You can also update your password. 
+ 
+— What you need to do now: sign in to your Yandex account, under which you have your wallet."</string>
+    <string name="auth_soft_migration_title">Why should I switch?</string>
+    <string name="auth_technical_support_screen_action_text">Contact the Support Service</string>
+    <string name="auth_technical_support_screen_description_email">"If you have no access to this email address, contact us: we'll solve the problem together."</string>
+    <string name="auth_technical_support_screen_description_phone">"If you have no access to this phone number, contact us: we'll solve the problem together."</string>
+    <string name="auth_technical_support_screen_title_email">"Can't change the email address"</string>
+    <string name="auth_technical_support_screen_title_phone">"Can't change the phone number"</string>
+    <string name="auth_too_frequently_resend_error">Too many attempts to get the code: pause required</string>
+    <string name="auth_unbind_sber_id_dialog_action_negative">Not now</string>
+    <string name="auth_unbind_sber_id_dialog_action_positive">Да</string>
+    <string name="auth_unbind_sber_id_dialog_message">"You'll always need your email address, phone number, and password for signing in."</string>
+    <string name="auth_unbind_sber_id_dialog_title">Unlink your wallet from Sber ID?</string>
+    <string name="auth_user_temporary_banned_error">Wait and start over</string>
+    <string name="auth_wait_confirmation_content">"Looks like you've already tried to get or enter the code: now a pause is required."</string>
+    <string name="auth_wait_confirmation_ok">OK</string>
+    <string name="auth_wait_confirmation_timer">"We'll send the code in %s"</string>
+    <string name="auth_wait_confirmation_timer_minutes_seconds">%1$d min %2$d sec</string>
+    <string name="auth_wait_confirmation_timer_seconds">%d sec</string>
+    <string name="auth_wait_confirmation_title">Please wait</string>
+    <string name="auth_yandex_acquire_login_ok">OK</string>
+    <string name="auth_yandex_acquire_login_screen_title">"You've already switched to YooMoney"</string>
+    <string name="auth_yandex_acquire_login_text">"That's great news: now you can just sign in to your account. Use the email address you entered during the transition. 
+"</string>
+    <string name="auth_yandex_acquire_registration_faq">Q&amp;A</string>
+    <string name="auth_yandex_acquire_registration_ok">Create a new account</string>
+    <string name="auth_yandex_acquire_registration_screen_title">No such account found</string>
+    <string name="auth_yandex_acquire_registration_support">Contact the Support Service</string>
+    <string name="auth_yandex_acquire_registration_text">Try signing in using a different email address or create a new account.</string>
+    <string name="auth_yandex_acquire_welcome_ok">"OK, let's go!"</string>
+    <string name="auth_yandex_acquire_welcome_screen_title">Time to switch to YooMoney</string>
+    <string name="auth_yandex_acquire_welcome_text">"You used to sign in to your wallet using your Yandex username and password, now you need a YooMoney account instead. 
+Let us help you get it: 
+— sign in using your Yandex username and password, 
+— allow YooMoney to access your name and email address, 
+— create a new password. 
+You'll get a YooMoney account with the same wallet that you've had in it. Email address and password are used for signing in, and text message codes are used for confirming actions. "</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="close_drawer">Close navigation menu</string>
+    <string name="close_sheet">Close sheet</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="default_error_message">Invalid input</string>
+    <string name="default_popup_window_title">Pop-Up Window</string>
+    <string name="default_web_client_id">288302439362-7g0k5epnr5ssjv2va41u263rbgmpu1mp.apps.googleusercontent.com</string>
+    <string name="dropdown_menu">Dropdown menu</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exit">OK</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="gcm_defaultSenderId">288302439362</string>
+    <string name="google_api_key">AIzaSyBmzjEk7bo2NYuJI7N6dIoH2rkGhw02rBE</string>
+    <string name="google_app_id">1:288302439362:android:cd304c908825311be7d45b</string>
+    <string name="google_crash_reporting_api_key">AIzaSyBmzjEk7bo2NYuJI7N6dIoH2rkGhw02rBE</string>
+    <string name="google_storage_bucket">crazy-time-af402.appspot.com</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="in_progress">In progress</string>
+    <string name="indeterminate">Neither checked nor unchecked</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="loading">Loading…</string>
+    <string name="location_permission_missing_message">"Looks like this app doesn't have location services configured. Please see OneSignal docs for more information."</string>
+    <string name="location_permission_missing_title">App Missing Permission</string>
+    <string name="location_permission_name_for_title">Location</string>
+    <string name="location_permission_settings_message">sharing your device location</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="nav_app_bar_navigate_up_description">Navigate up</string>
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="navigation_menu">Navigation menu</string>
+    <string name="next">Next</string>
+    <string name="not_selected">Not selected</string>
+    <string name="notification_permission_name_for_title">Notifications</string>
+    <string name="notification_permission_settings_message">Notifications</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_not_available_message">You have previously denied %s. Please go to settings to enable.</string>
+    <string name="permission_not_available_open_settings_option">Settings</string>
+    <string name="permission_not_available_title">%s Not Available</string>
+    <string name="previous">Previous</string>
+    <string name="project_id">crazy-time-af402</string>
+    <string name="range_end">Range end</string>
+    <string name="range_start">Range start</string>
+    <string name="search_menu_title">Search</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="selected">Selected</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d percent.</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="try_again">Try again</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="yandex_ads_context">yandex:ads:context</string>
+    <string name="yandex_ads_context_allow_parsing">allow-parsing</string>
+    <string name="yandex_ads_context_do_not_parse">do-not-parse</string>
+    <string name="ym_allow_wallet_linking">"Next time, you won't have to sign in to your YooMoney account, which will make payments faster"</string>
+    <string name="ym_app_scheme" />
+    <string name="ym_auth_hint_emergency">Enter emergency code</string>
+    <string name="ym_auth_hint_password">Enter access code</string>
+    <string name="ym_auth_hint_sms">Enter text message code</string>
+    <string name="ym_auth_hint_totp">Enter one-time password</string>
+    <string name="ym_auto_write_off_and_save_card_body">"If you allowed it, your bank card details will be saved for this store and its partners: card number, cardholder's name, and expiration date (everything except the CVC). Next time, you won't need to enter them for payments in this store. 
+ 
+Besides that, we'll link the card (including if it's been used via Google Pay) to the store. After that, the store will be able to send requests for debiting money automatically: then the payment is made without an additional confirmation from you. 
+ 
+Autopayments will continue even after you reissue the card, even if your bank can update the data automatically. You can cancel them and unlink the card at any moment via store's support service."</string>
+    <string name="ym_auto_write_off_and_save_card_title">"Autopayments 
+and saving payment details"</string>
+    <string name="ym_auto_write_off_approve_with_switch">Allow autopayments</string>
+    <string name="ym_auto_write_off_approve_without_switch">Allowing autopayments</string>
+    <string name="ym_auto_write_off_save_payments_with_switch">Allow autopayments and save payment details</string>
+    <string name="ym_auto_write_off_save_payments_without_switch">Allowing autopayments and saving payment details</string>
+    <string name="ym_back_action">Back</string>
+    <string name="ym_cancel_action">Cancel</string>
+    <string name="ym_card_number_hint">Enter or scan</string>
+    <string name="ym_card_number_only_enter_hint">Enter</string>
+    <string name="ym_card_number_title">Card number</string>
+    <string name="ym_check_card_number_error">Check the card number</string>
+    <string name="ym_check_cvc">Check the CVC</string>
+    <string name="ym_check_expiry_error">Check the month and date</string>
+    <string name="ym_confirm_retry_timer_text">Get a new code in %s</string>
+    <string name="ym_contract_continue">Next</string>
+    <string name="ym_contract_fee">Including commission</string>
+    <string name="ym_contract_link_card_title">Link a card</string>
+    <string name="ym_contract_link_wallet_title">Remember me</string>
+    <string name="ym_contract_save_payment_method_gpay_switch_title">Allow autopayments</string>
+    <string name="ym_contract_save_payment_method_wallet_switch_title">Allow autopayments</string>
+    <string name="ym_contract_save_payment_method_wallet_title">Allowing autopayments</string>
+    <string name="ym_cvc_hint">CVC</string>
+    <string name="ym_cvc_title">Code</string>
+    <string name="ym_error_no_internet">"Connection error. Try again once you're online"</string>
+    <string name="ym_error_something_went_wrong">Looks like a technical error</string>
+    <string name="ym_expiry_mm_yy_hint">MM/YY</string>
+    <string name="ym_expiry_title">Expiration date</string>
+    <string name="ym_google_pay_description">"You'll be redirected into the Google Pay app: confirm the payment"</string>
+    <string name="ym_how_unbind_wallet_card_body">"To do that, go to the wallet settings on the YooMoney website or in the app. 
+In the app: tap on your profile picture, select \"Bank cards\", swipe the one you need to the left, and tap \"Remove\". 
+On the website: go to the wallet settings, open the \"Linked cards\" tab, find the one you need, and click \"Unlink\"."</string>
+    <string name="ym_how_unbind_wallet_card_title">How to unlink a card from the wallet</string>
+    <string name="ym_how_works_auto_write_body">"If you allow autopayments, we'll link the bank card (including if it's been used via Google Pay) to the store. After that, the store will be able to send requests for debiting money automatically, then the payment is made without an additional confirmation from you. 
+ 
+Autopayments will continue even after you reissue the card, even if your bank can update the data automatically. You can cancel them and unlink the card at any moment via store's support service."</string>
+    <string name="ym_how_works_auto_write_title">How autopayments work</string>
+    <string name="ym_informer_unbind_action">Learn more</string>
+    <string name="ym_informer_unbind_card_wallet">You can only unlink this card in the wallet settings</string>
+    <string name="ym_informer_unbind_text">"Autopayments will continue after you remove the card. To cancel autopayments, contact store's support service"</string>
+    <string name="ym_label_phone_in_sbol">Your phone number in SberBank Online</string>
+    <string name="ym_license_agreement_part_1">By clicking this button, accept</string>
+    <string name="ym_license_agreement_part_2">the terms and conditions of the service</string>
+    <string name="ym_license_agreement_url">https://yoomoney.ru/page?id=526623</string>
+    <string name="ym_linked_card">Bank card</string>
+    <string name="ym_linked_not_wallet_card">Bank card</string>
+    <string name="ym_linked_wallet_card">YooMoney card</string>
+    <string name="ym_logout_dialog_button_negative">Cancel</string>
+    <string name="ym_logout_dialog_button_positive">Sign out</string>
+    <string name="ym_logout_dialog_message">Are you sure you want to sign out of account %1$s?</string>
+    <string name="ym_migration_banner_button_text">Learn more</string>
+    <string name="ym_migration_banner_text">If you signed up before October 21, you need to switch to YooMoney</string>
+    <string name="ym_navigation_item_back">Back</string>
+    <string name="ym_no_payment_options_error">No available payment methods</string>
+    <string name="ym_no_wallet_dialog_message">"You don't have a YooMoney wallet"</string>
+    <string name="ym_no_wallet_dialog_shoose_payment_option">Select payment method</string>
+    <string name="ym_payment_auth_no_attempts">No attempts left, you need to get a new code</string>
+    <string name="ym_payment_auth_retry_text">Try again</string>
+    <string name="ym_payment_auth_wrong_code">Invalid code. Double-check and try again</string>
+    <string name="ym_payment_auth_wrong_code_try_again">Invalid code. Double-check and try again</string>
+    <string name="ym_payment_auth_wrong_code_with_attempts">Invalid code again. Attempts left: %d</string>
+    <string name="ym_payment_option_google_pay">Google Pay</string>
+    <string name="ym_payment_option_new_card">Bank card</string>
+    <string name="ym_payment_option_yoomoney">YooMoney</string>
+    <string name="ym_payment_options_title">Payment method</string>
+    <string name="ym_phone_hint">+7 987 654-32-10</string>
+    <string name="ym_retry">Try again</string>
+    <string name="ym_safe_payments_agreement_message">"It can happen when you pay on an online platform where it's possible to buy from multiple sellers at once (for example, on marketplaces). 
+You can find the list of recipients on the platform where you're making the payment."</string>
+    <string name="ym_safe_payments_agreement_part_1">The payment can have</string>
+    <string name="ym_safe_payments_agreement_part_2">multiple recipients</string>
+    <string name="ym_safe_payments_agreement_title">Why the payment has multiple recipients</string>
+    <string name="ym_save_card_body">"If you allowed it, your bank card details will be saved for this store and its partners: card number, cardholder's name, and expiration date (everything except the CVC). Next time, you won't need to enter them for payments in this store. 
+ 
+You can delete the bank card details during the payment process (tap on the three dots next to the card and select \"Remove the card\") or by contacting the support service."</string>
+    <string name="ym_save_card_title">Saving payment details</string>
+    <string name="ym_save_payment_details_with_switch">Save payment details</string>
+    <string name="ym_save_payment_details_without_switch">Saving payment details</string>
+    <string name="ym_save_payment_method_bank_card_additional_info">"Autopayments will continue even after you reissue the card, even if your bank can update the data automatically. You can cancel them and unlink the card at any moment via store's support service."</string>
+    <string name="ym_save_payment_method_bank_card_info_text">"If you allow autopayments,  we'll link the card (including if it's been used via Google Pay)  to the store. After that, the store will be able to send requests for debiting money automatically, then the payment is made without an additional confirmation from you. "</string>
+    <string name="ym_save_payment_method_bank_card_info_title">How autopayments work</string>
+    <string name="ym_save_payment_method_bank_card_message_text_part_1">By making this payment, you allow saving the card and</string>
+    <string name="ym_save_payment_method_bank_card_message_text_part_2">debit money without your participation</string>
+    <string name="ym_save_payment_method_bank_card_switch_text_part_1">After the payment, this card will be saved: the store will be able</string>
+    <string name="ym_save_payment_method_bank_card_switch_text_part_2">to debit money without your participation</string>
+    <string name="ym_save_payment_method_gpay_switch_text_part_1">"After the payment, this card will be saved: the store will be able "</string>
+    <string name="ym_save_payment_method_gpay_switch_text_part_2">to debit money without your participation</string>
+    <string name="ym_save_payment_method_linked_card_auto_write_off_message_text_part_1">By making this payment, you allow </string>
+    <string name="ym_save_payment_method_linked_card_auto_write_off_message_text_part_2">saving bank card details and debiting money without your participation</string>
+    <string name="ym_save_payment_method_linked_card_auto_write_off_message_text_with_switch_part_1">After the payment, the store will</string>
+    <string name="ym_save_payment_method_linked_card_auto_write_off_message_text_with_switch_part_2">save your bank card details to be able to debit money without your participation</string>
+    <string name="ym_save_payment_method_linked_card_message_text_part_1">By making this payment, you allow saving this card and </string>
+    <string name="ym_save_payment_method_linked_card_message_text_part_2">debiting money without your participation</string>
+    <string name="ym_save_payment_method_linked_card_message_text_with_switch_part_1">After the payment, this card will be saved: the store will be able</string>
+    <string name="ym_save_payment_method_linked_card_message_text_with_switch_part_2">to debit money without your participation</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_part_1">This store</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_part_2">will save your bank card details</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_part_3">" : next time you won't need to enter them"</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_with_switch_part_1">By making this payment, you allow the store</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_with_switch_part_2">to save your bank card details</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_with_switch_part_3">": next time you won't need to enter them"</string>
+    <string name="ym_save_payment_method_title">"Let's save the card"</string>
+    <string name="ym_save_payment_method_wallet_info_text">"It means that you're allowing YooMoney to debit money from the wallet upon store's request without an additional confirmation from you. You can disable these autopayments at any moment in the wallet settings (on the YooMoney website)."</string>
+    <string name="ym_save_payment_method_wallet_info_title">Permission to debit money without your participation</string>
+    <string name="ym_save_payment_method_wallet_message_text_part_1">By making this payment, you allow saving this wallet and</string>
+    <string name="ym_save_payment_method_wallet_message_text_part_2">debiting money without your participation</string>
+    <string name="ym_save_payment_method_wallet_switch_text_part_1">The store will be able</string>
+    <string name="ym_save_payment_method_wallet_switch_text_part_2">to debit money without your participation</string>
+    <string name="ym_saved_card">Bank card</string>
+    <string name="ym_sber_pay_description">Next, the SberBank Online application will be opened: confirm the payment</string>
+    <string name="ym_sber_phone_input_info">Phone number for payment confirmation via SberBank Online</string>
+    <string name="ym_sberbank">SberPay</string>
+    <string name="ym_server_error">Looks like a technical error</string>
+    <string name="ym_support_email">support@yoomoney.ru</string>
+    <string name="ym_support_help_url">https://yoomoney.ru/page?id=536720</string>
+    <string name="ym_support_phone">+78002506699</string>
+    <string name="ym_transition_name">bottom sheet transition</string>
+    <string name="ym_unbind_card_action">Remove the card</string>
+    <string name="ym_unbinding_alert_message">"Autopayments will continue after you remove the card. To cancel autopayments, contact store's support service"</string>
+    <string name="ym_unbinding_card_failed">"Couldn't unlink card ••••%s"</string>
+    <string name="ym_unbinding_card_success">Card ••••%s removed</string>
+    <string name="ym_understand_button">Got it</string>
+    <string name="ym_unknown_error">Looks like a technical error</string>
+    <string name="ym_wrong_passcode_error">Incorrect password</string>
+    <string name="ym_yoo_login_to_pay">Sign in to your account to pay via YooMoney</string>
+    <string name="ym_yoo_money_logout">Sign out</string>
+</resources>

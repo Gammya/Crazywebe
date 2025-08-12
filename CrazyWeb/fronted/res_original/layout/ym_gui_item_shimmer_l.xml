@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:padding="@dimen/ym_spaceM" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:contentDescription="@null" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.5" app:srcCompat="@drawable/body_medium_rectangle" />
+        <ImageView android:id="@id/sub_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_spaceS" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:srcCompat="@drawable/caption1_rectangle" />
+        <ImageView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_spaceXS" android:contentDescription="@null" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sub_title" app:layout_constraintWidth_percent="0.7" app:srcCompat="@drawable/caption1_rectangle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

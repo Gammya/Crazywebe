@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@null" android:padding="@dimen/ym_spaceM" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_rounded_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/close" android:paddingTop="@dimen/ym_spaceM" android:paddingBottom="@dimen/ym_spaceM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?colorLink" android:paddingStart="@dimen/ym_spaceL" android:paddingEnd="@dimen/ym_spaceL" app:srcCompat="@drawable/ic_close_m" />
+        <ru.yoomoney.sdk.gui.widget.text.TextTitle2View android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ym_spaceXL" android:layout_marginEnd="@dimen/ym_spaceXL" />
+        <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_spaceM" android:layout_marginStart="@dimen/ym_spaceXL" android:layout_marginEnd="@dimen/ym_spaceXL" style="@style/Text.Body.Secondary" />
+        <ru.yoomoney.sdk.gui.widget.button.PrimaryButtonView android:id="@id/action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/ym_spaceXL" />
+    </LinearLayout>
+</FrameLayout>

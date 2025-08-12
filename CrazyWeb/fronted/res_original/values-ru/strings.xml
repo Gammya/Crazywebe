@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Ещё</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выберите приложение</string>
+    <string name="abc_capital_off">ВЫКЛ</string>
+    <string name="abc_capital_on">ВКЛ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Ввод</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">Пробел</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Меню +</string>
+    <string name="abc_search_hint">Введите запрос</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться с помощью</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="auth_about_app_links_headline">Приложение</string>
+    <string name="auth_about_app_links_open">Открыть</string>
+    <string name="auth_about_banner_button">Скачать</string>
+    <string name="auth_about_banner_text">История операций, переводы и платежи — всегда под рукой</string>
+    <string name="auth_about_banner_title">Приложение ЮMoney</string>
+    <string name="auth_about_links_headline">Быстрые ссылки</string>
+    <string name="auth_about_links_yoomoney">Сайт ЮMoney</string>
+    <string name="auth_about_more_headline">Что ещё можно в ЮMoney</string>
+    <string name="auth_about_more_text">ЮMoney — один из крупнейших платёжных сервисов в России. На сайте и в приложении можно оплачивать квитанции, штрафы, кредиты.</string>
+    <string name="auth_about_text">"Сервис для платежей в интернете и реальном мире. 
+Помогает оплачивать товары и услуги, переводить и принимать деньги. 
+В ЮMoney вы можете быстро и бесплатно создать электронный кошелёк и выпустить виртуальную банковскую карту."</string>
+    <string name="auth_about_title">ЮMoney</string>
+    <string name="auth_about_yoomoney">ЮMoney</string>
+    <string name="auth_account_not_found">Такого профиля у нас нет</string>
+    <string name="auth_account_not_found_error">Такого профиля у нас нет</string>
+    <string name="auth_action_try_again">Попробовать ещё раз</string>
+    <string name="auth_allow_access_dialog_message">Без доступа к данным войти не получится — отправим вас к началу</string>
+    <string name="auth_allow_access_dialog_negative_action">Запретить</string>
+    <string name="auth_allow_access_dialog_positive_action">Разрешить</string>
+    <string name="auth_allow_access_dialog_title">Доступ нужен для входа</string>
+    <string name="auth_allow_access_negative_action">Запретить</string>
+    <string name="auth_allow_access_positive_action">Разрешить</string>
+    <string name="auth_allow_access_subtitle">"Приложение %s запрашивает доступ: 
+"</string>
+    <string name="auth_allow_access_title">Разрешите доступ к данным</string>
+    <string name="auth_bindind_sber_id_waiting_action">Повторить</string>
+    <string name="auth_bindind_sber_id_waiting_subtitle">Если ничего не происходит, попробуйте ещё раз</string>
+    <string name="auth_bindind_sber_id_waiting_title">Ждём ответ от Сбербанка</string>
+    <string name="auth_change_email_confirmation_dialog_accept">Да, меняем</string>
+    <string name="auth_change_email_confirmation_dialog_decline">Нет, не надо</string>
+    <string name="auth_change_email_confirmation_dialog_text">Вам может понадобиться телефон и доступ к действующей почте</string>
+    <string name="auth_change_email_confirmation_dialog_title">Изменить почту?</string>
+    <string name="auth_change_email_success_button">OK</string>
+    <string name="auth_change_email_success_text_add">"Используйте её для входа в профиль и восстановления пароля. 
+На этот адрес будут приходить чеки и важные письма про ваш профиль."</string>
+    <string name="auth_change_email_success_text_add_marketing">"Теперь её можно использовать для входа в профиль и восстановления пароля. 
+ 
+На этот адрес будут приходить чеки и важные письма про ваш профиль, а еще новости и предложения."</string>
+    <string name="auth_change_email_success_text_changed">"Используйте её для входа в профиль и восстановления пароля. 
+ 
+Уведомления (если они включены) и чеки будут приходить на новую почту."</string>
+    <string name="auth_change_email_success_title_add">Готово! Подтвердили почту %s</string>
+    <string name="auth_change_email_success_title_change">Готово! Подтвердили почту %s</string>
+    <string name="auth_change_password_confirmation_dialog_accept">Да, меняем</string>
+    <string name="auth_change_password_confirmation_dialog_decline">Нет, не надо</string>
+    <string name="auth_change_password_confirmation_dialog_text">После смены пароля нужно войти в профиль заново — на всех устройствах</string>
+    <string name="auth_change_password_confirmation_dialog_title">Изменение пароля</string>
+    <string name="auth_change_password_finish_button">Войти в профиль</string>
+    <string name="auth_change_password_finish_text">Теперь нужно войти в профиль заново — и уже с новым паролем</string>
+    <string name="auth_change_password_finish_title">Готово! Пароль поменяли</string>
+    <string name="auth_change_password_success_button">Хорошо</string>
+    <string name="auth_change_password_success_text">Готово! Поменяли пароль от профиля</string>
+    <string name="auth_change_phone_confirmation_dialog_accept">Да, меняем</string>
+    <string name="auth_change_phone_confirmation_dialog_decline">Нет, не надо</string>
+    <string name="auth_change_phone_confirmation_dialog_text">Сначала мы отправим смс с кодом на действующий номер. Нужно будет указать его на следующем шаге</string>
+    <string name="auth_change_phone_confirmation_dialog_title">Изменить телефон?</string>
+    <string name="auth_change_phone_success_button">Хорошо</string>
+    <string name="auth_change_phone_success_text">Можно использовать его для входа в профиль. А еще на этот номер будут приходить смс-коды для подтверждения операций.</string>
+    <string name="auth_change_phone_success_title">Готово! Привязали новый телефон: %s</string>
+    <string name="auth_contact_dialog_email">Написать на почту</string>
+    <string name="auth_contact_dialog_phone">Позвонить %s</string>
+    <string name="auth_contact_technical_support">Напишите нам — поможем разобраться</string>
+    <string name="auth_default_error">Что-то не так. Пожалуйста, вернитесь чуть позже.</string>
+    <string name="auth_default_sber_id_error">Попробуйте войти по-другому: с телефоном или почтой</string>
+    <string name="auth_display_name_placeholder">Ваше имя</string>
+    <string name="auth_email_already_taken_error">Этот адрес занят — укажите другой</string>
+    <string name="auth_email_change">Добавление почты</string>
+    <string name="auth_email_change_action">Получить письмо с кодом</string>
+    <string name="auth_email_confirm_action_text">Дальше</string>
+    <string name="auth_email_confirm_forgot">Не могу получить письмо</string>
+    <string name="auth_email_confirm_help">Помощь</string>
+    <string name="auth_email_confirm_label">Код для %s</string>
+    <string name="auth_email_confirm_retry_action_text">Получить новый код</string>
+    <string name="auth_email_confirm_retry_timer_text">Получить новый код через %s</string>
+    <string name="auth_email_confirm_screen_title">Теперь — код из письма</string>
+    <string name="auth_email_confirm_support_button">Написать в поддержку</string>
+    <string name="auth_email_confirm_support_text">Если у вас нет доступа к этому телефону, напишите нам — разберёмся вместе.</string>
+    <string name="auth_email_confirmation_help_description">"— В адресе опечатка (проверьте каждый символ) 
+— Письмо попало в спам 
+Если в спаме ничего нет, адрес правильный, и новые письма тоже не доходят, напишите нам."</string>
+    <string name="auth_email_confirmation_help_title">Почему письмо не приходит?</string>
+    <string name="auth_email_enter_action_text">Получить письмо с кодом</string>
+    <string name="auth_email_enter_input_description">Для чеков и уведомлений</string>
+    <string name="auth_email_enter_input_hint">example@example.com</string>
+    <string name="auth_email_enter_input_label">Почта</string>
+    <string name="auth_email_enter_is_not_valid_hint">С адресом что-то не так</string>
+    <string name="auth_email_enter_offers_description">Хочу получать новости сервиса, скидки, опросы: максимум раз в неделю</string>
+    <string name="auth_email_enter_screen_title">Укажите вашу почту</string>
+    <string name="auth_email_quarantined_error">Нужен другой адрес. Когда-то вы удалили кошелёк с такой почтой, использовать её снова нельзя</string>
+    <string name="auth_enter_password_error_last_attempt">%1$s. Осталась последняя попытка</string>
+    <string name="auth_enter_password_error_many_attempts">%1$s. Осталось попыток: %2$d</string>
+    <string name="auth_error_code_expired_error">Код устарел — нужно получить другой</string>
+    <string name="auth_error_invalid_code">Это не тот код. Проверьте и введите еще раз</string>
+    <string name="auth_error_invalid_code_last_attempt">Снова не тот. Осталась одна попытка</string>
+    <string name="auth_error_invalid_code_no_attempts">Код опять неверный. Попытки кончились</string>
+    <string name="auth_error_no_app_market">У вас не установлен ни один магазин приложений</string>
+    <string name="auth_error_no_browser">У вас нет ни одного приложения для просмотра веб-страниц</string>
+    <string name="auth_error_no_dialer">У вас нет ни одного приложения для звонков</string>
+    <string name="auth_error_no_email_client">У вас нет ни одного приложения для отправки писем</string>
+    <string name="auth_finishing_failure_button">Понятно</string>
+    <string name="auth_finishing_failure_support_button">Написать в поддержку</string>
+    <string name="auth_finishing_failure_title">Не получилось</string>
+    <string name="auth_fraud_suspected_error">Возможно, это был разовый технический сбой</string>
+    <string name="auth_hard_migration_action">Понятно, к делу!</string>
+    <string name="auth_hard_migration_action_subtitle">На лимиты, комиссии и остальные условия использования кошелька это никак не влияет: &lt;a href=\"https://new.yoomoney.ru/\">вот подробности&lt;/a></string>
+    <string name="auth_hard_migration_subtitle">"Раньше вы заходили в кошелёк с логином и паролем Яндекса, теперь вместо них нужен профиль ЮMoney.
+
+Сейчас поможем его получить:
+— вы зайдёте с логином и паролем Яндекса,
+— разрешите ЮMoney доступ к имени и почте,
+— придумаете новый пароль.
+
+У вас появится профиль ЮMoney с прежним кошельком внутри. Для входа — почта и пароль, для подтверждений — смс-коды."</string>
+    <string name="auth_hard_migration_title">Пора перейти в ЮMoney</string>
+    <string name="auth_illegal_parameters_common_error">Похоже на опечатку. Проверьте, пожалуйста</string>
+    <string name="auth_loading_sber_dialog_cancel">Отмена</string>
+    <string name="auth_loading_sber_dialog_ok">Хорошо</string>
+    <string name="auth_loading_sber_dialog_title">Приложение ЮMoney хочет открыть СберБанк Онлайн</string>
+    <string name="auth_login_enter_action_text">Дальше</string>
+    <string name="auth_login_enter_informer_action">Подробности</string>
+    <string name="auth_login_enter_informer_message">"Если вы регистрировались 
+до 13 октября — нужно перейти в ЮMoney "</string>
+    <string name="auth_login_enter_input_label">Почта или телефон</string>
+    <string name="auth_login_enter_screen_title">Вход</string>
+    <string name="auth_login_enter_subtitle">Единый профиль</string>
+    <string name="auth_login_illegal_value_error">Укажите ваш телефон или адрес эл. почты</string>
+    <string name="auth_login_information_message" />
+    <string name="auth_login_information_title" />
+    <string name="auth_max_succeeded_password_attempts_reached">Это была последняя попытка</string>
+    <string name="auth_max_wrong_password_attempts_reached">Это была последняя попытка</string>
+    <string name="auth_migration_go_to_yoomoney">Чтобы перенести аккаунт, установите приложение ЮMoney</string>
+    <string name="auth_network_connection_error">Похоже, пропал интернет. Проверьте, пожалуйста</string>
+    <string name="auth_nickname_action_text">Сохранить</string>
+    <string name="auth_nickname_create_name_success_message">Готово! Добавили имя</string>
+    <string name="auth_nickname_illegal_nickname_error">Какой-то символ не подходит. Укажите другое имя</string>
+    <string name="auth_nickname_input_label">Имя или ник</string>
+    <string name="auth_nickname_menu_cancel">Отменить</string>
+    <string name="auth_nickname_new_name_success_message">Готово! Сохранили новое имя</string>
+    <string name="auth_nickname_title_change_name">Укажите новое имя</string>
+    <string name="auth_nickname_title_new_name">Как вас зовут</string>
+    <string name="auth_oauth_failure_action">Начать сначала</string>
+    <string name="auth_oauth_failure_subtitle">"Попробуйте войти по-другому:
+с телефоном или почтой"</string>
+    <string name="auth_oauth_failure_title">Не сработало</string>
+    <string name="auth_oauth_not_found_action_text">Создам новый кошелёк</string>
+    <string name="auth_oauth_not_found_sber_id_title">Cбер ID</string>
+    <string name="auth_oauth_not_found_secondary_action_text">Войду в свой кошелёк</string>
+    <string name="auth_oauth_not_found_subtitle">"Для этого войдите в кошелёк или создайте новый. 
+Важно: %s можно привязать только к одному кошельку."</string>
+    <string name="auth_oauth_not_found_title">"Теперь привяжем 
+к %s кошелёк"</string>
+    <string name="auth_passport_profile_email">Почта</string>
+    <string name="auth_passport_profile_email_change">Добавить почту</string>
+    <string name="auth_passport_profile_name">Имя</string>
+    <string name="auth_passport_profile_name_change">Добавить</string>
+    <string name="auth_passport_profile_password">Пароль</string>
+    <string name="auth_passport_profile_password_change">Изменить пароль</string>
+    <string name="auth_passport_profile_personal_data">Личные данные</string>
+    <string name="auth_passport_profile_phone">Телефон</string>
+    <string name="auth_passport_profile_phone_change">Добавить телефон</string>
+    <string name="auth_passport_profile_region">Регион</string>
+    <string name="auth_passport_profile_sber_account_title">Сбер ID</string>
+    <string name="auth_passport_profile_security">Безопасность</string>
+    <string name="auth_passport_profile_social_account_link_action">Привязать</string>
+    <string name="auth_passport_profile_social_account_unlink_action">Отвязать</string>
+    <string name="auth_passport_profile_social_accounts_title">Другие аккаунты</string>
+    <string name="auth_password_change_screen_title">Придумайте пароль</string>
+    <string name="auth_password_contains_non_allowed_symbols_error">Можно использовать только латиницу и спецсимволы</string>
+    <string name="auth_password_create_action_text">Дальше</string>
+    <string name="auth_password_create_first_input_label">Пароль</string>
+    <string name="auth_password_create_screen_title">Придумайте пароль</string>
+    <string name="auth_password_create_second_input_label">Пароль ещё раз</string>
+    <string name="auth_password_create_second_password_error">Не совпадают. Проверьте и попробуйте снова</string>
+    <string name="auth_password_create_validation_letters">Латинские буквы: строчная и заглавная</string>
+    <string name="auth_password_create_validation_numbers">Цифры</string>
+    <string name="auth_password_create_validation_symbols_count">Минимум 8 символов</string>
+    <string name="auth_password_enter_account_title">Действующий пароль</string>
+    <string name="auth_password_enter_action_text">Дальше</string>
+    <string name="auth_password_enter_forgot_button">Не помню пароль</string>
+    <string name="auth_password_enter_input_label">Пароль</string>
+    <string name="auth_password_enter_invalid_password_error">Пароль не подходит.</string>
+    <string name="auth_password_enter_invalid_password_or_account_error">Не подходит. Проверьте пароль и профиль, в который вы хотите войти</string>
+    <string name="auth_password_enter_title">Укажите пароль</string>
+    <string name="auth_password_enter_warning_text">Но никому его не говорите — пароли и смс-коды спрашивают только мошенники</string>
+    <string name="auth_password_recovery_dialog_title">Расскажем как восстановить пароль</string>
+    <string name="auth_password_recovery_phone">Телефон</string>
+    <string name="auth_password_recovery_phone_disable">Нет доступа к телефону</string>
+    <string name="auth_password_recovery_success_dialog_action">Хорошо</string>
+    <string name="auth_password_recovery_success_dialog_description">Теперь можно войти в профиль с новым паролем</string>
+    <string name="auth_password_recovery_success_dialog_title">Поменяли пароль</string>
+    <string name="auth_phone_action_change_country">Другая страна</string>
+    <string name="auth_phone_change_screen_title">Укажите новый номер</string>
+    <string name="auth_phone_confirm_action_text">Дальше</string>
+    <string name="auth_phone_confirm_default_input_label">Код от %s символов</string>
+    <string name="auth_phone_confirm_description">"Отправили проверочный код 
+на %s"</string>
+    <string name="auth_phone_confirm_forgot">У меня нет доступа к телефону</string>
+    <string name="auth_phone_confirm_help">Помощь</string>
+    <string name="auth_phone_confirm_retry_action_text">Получить новый код</string>
+    <string name="auth_phone_confirm_retry_timer_text">Получить новый код через %s</string>
+    <string name="auth_phone_confirm_title">Введите код из смс</string>
+    <string name="auth_phone_confirmation_help_action">Написать в поддержку</string>
+    <string name="auth_phone_confirmation_help_description">"— Просто задерживается на пару минут, иногда такое бывает 
+— У оператора технические проблемы 
+Если у оператора всё хорошо, но смс не приходит даже с третьей попытки, напишите нам."</string>
+    <string name="auth_phone_confirmation_help_title">Почему смс не приходит?</string>
+    <string name="auth_phone_countries_screen_title">Страны</string>
+    <string name="auth_phone_enter_about">Что такое ЮMoney</string>
+    <string name="auth_phone_enter_action_text">Получить смс-код</string>
+    <string name="auth_phone_enter_label">Телефон (%s)</string>
+    <string name="auth_phone_enter_screen_subtitle">Для вашего профиля</string>
+    <string name="auth_phone_enter_screen_title">Ваш мобильный</string>
+    <string name="auth_phone_enter_yoomoney_title">Телефон для входа в ЮMoney</string>
+    <string name="auth_phone_is_already_assigned_to_account_without_email">Это телефон из другого профиля. Укажите почту или выберите другой телефон.</string>
+    <string name="auth_phone_is_same_as_current">Новый телефон не отличается от уже заданного</string>
+    <string name="auth_phone_select_action_text">Дальше</string>
+    <string name="auth_phone_select_form_title">Выбранный телефон</string>
+    <string name="auth_phone_select_screen_description">В этом профиле несколько телефонов — выберите, какой оставить: для смс-кодов и восстановления доступа.</string>
+    <string name="auth_phone_select_screen_title">Выберите телефон</string>
+    <string name="auth_phone_too_many_accounts_error">Этот телефон зарегистрирован в 10 профилях, нужен другой</string>
+    <string name="auth_qr_failure_rescan">Попробовать ещё раз</string>
+    <string name="auth_qr_failure_subtitle_fail">Вероятно, это был временный сбой. Попробуйте снова или войдите в профиль по-другому — например, с телефоном или почтой.</string>
+    <string name="auth_qr_failure_subtitle_refresh">Обновите QR-код на странице входа и отсканируйте ещё раз</string>
+    <string name="auth_qr_failure_title_canceled">Всё отменили, но можно попробовать снова</string>
+    <string name="auth_qr_failure_title_fail">Не сработало</string>
+    <string name="auth_qr_failure_title_time_out">Пауза затянулась</string>
+    <string name="auth_qr_info_accept">Подтвердить вход</string>
+    <string name="auth_qr_info_deny">Отменить</string>
+    <string name="auth_qr_info_subtitle">"Информация об устройстве: 
+%s"</string>
+    <string name="auth_qr_info_title">Хотите войти в ЮMoney на компьютере?</string>
+    <string name="auth_qr_success_ok">Понятно</string>
+    <string name="auth_qr_success_subtitle">"Вы вошли в свой профиль 
+на сайте ЮMoney"</string>
+    <string name="auth_qr_success_title">Готово!</string>
+    <string name="auth_remote_config_offer_has_email">Нажимая кнопку, я подтверждаю осведомлённость и согласие &lt;a href=\"https://yoomoney.ru/legal\"> со всеми юридическими условиями сервиса&lt;/a></string>
+    <string name="auth_remote_config_offer_no_email">Нажимая кнопку, я подтверждаю осведомлённость и согласие &lt;a href=\"https://yoomoney.ru/legal\"> со всеми юридическими условиями сервиса&lt;/a> и с тем, что если я не подключу информирование об операциях на почту или телефон, единственным каналом информирования будет история моих операций — на сайте и в приложении ЮMoney</string>
+    <string name="auth_reset_process_dialog_action">Хорошо</string>
+    <string name="auth_reset_process_dialog_message_enrollment">Регистрация немного затянулась. Давайте попробуем ещё раз</string>
+    <string name="auth_reset_process_dialog_message_login">Вход длится больше часа. Давайте попробуем ещё раз</string>
+    <string name="auth_reset_process_dialog_message_other">Пауза затянулась — давайте попробуем ещё раз</string>
+    <string name="auth_reset_process_dialog_title">Нужно начать заново</string>
+    <string name="auth_sber_id_binding_error_dialog_action">Понятно</string>
+    <string name="auth_sber_id_binding_success_dialog_action">Вот и хорошо</string>
+    <string name="auth_sber_id_binding_success_dialog_title">Готово! Теперь можно входить по Сбер ID. Или как обычно — с телефоном и почтой.</string>
+    <string name="auth_select_account_actives">Активные</string>
+    <string name="auth_select_account_create_new_account">Создать новый профиль</string>
+    <string name="auth_select_account_enrollment_screen_title">У вас есть другие профили</string>
+    <string name="auth_select_account_login_screen_title">Выберите профиль</string>
+    <string name="auth_select_account_need_migration">Перенесите профиль в ЮMoney</string>
+    <string name="auth_select_email_action_text">Дальше</string>
+    <string name="auth_select_email_screen_subtitle">В профиле %s несколько почтовых ящиков — выберите, какой оставить для входа и восстановления доступа.</string>
+    <string name="auth_select_email_screen_title">Выберите почту</string>
+    <string name="auth_select_email_selector_title">Выбранная почта</string>
+    <string name="auth_social_account_already_bound_error">К этому Сбер ID уже привязан другой кошелёк</string>
+    <string name="auth_social_account_invalid_oauth">Не сработало — попробуйте позже</string>
+    <string name="auth_soft_migration_action">Понятно, к делу!</string>
+    <string name="auth_soft_migration_action_subtitle">На лимиты, комиссии и остальные условия использования кошелька это никак не влияет: &lt;a href=\"https://new.yoomoney.ru/\">вот подробности&lt;/a></string>
+    <string name="auth_soft_migration_subtitle">"Потому что теперь кошелёк — в ЮMoney, отдельно от аккаунта в Яндексе.
+
+— Что останется как раньше: номер кошелька, ваши настройки, условия использования.
+
+— Что поменяется: вместо логина (как в Яндексе) у вас будет почта или телефон. Пароль тоже можно обновить.
+
+— Сейчас нужно: войти в аккаунт Яндекса, где есть кошелёк."</string>
+    <string name="auth_soft_migration_title">Зачем куда-то переходить?</string>
+    <string name="auth_technical_support_screen_action_text">Написать в поддержку</string>
+    <string name="auth_technical_support_screen_description_email">Если у вас нет доступа к этой почте, напишите нам — разберёмся вместе.</string>
+    <string name="auth_technical_support_screen_description_phone">Если у вас нет доступа к этому телефону, напишите нам — разберёмся вместе.</string>
+    <string name="auth_technical_support_screen_title_email">Нельзя изменить почту</string>
+    <string name="auth_technical_support_screen_title_phone">Нельзя изменить телефон</string>
+    <string name="auth_too_frequently_resend_error">У вас было слишком много попыток получить код: нужна пауза</string>
+    <string name="auth_unbind_sber_id_dialog_action_negative">Не сейчас</string>
+    <string name="auth_unbind_sber_id_dialog_action_positive">Да</string>
+    <string name="auth_unbind_sber_id_dialog_message">Для входа всегда будут нужны почта, телефон, пароль.</string>
+    <string name="auth_unbind_sber_id_dialog_title">Отвязать кошелёк от Сбер ID?</string>
+    <string name="auth_user_temporary_banned_error">Подождите и начните сначала</string>
+    <string name="auth_wait_confirmation_content">Похоже, вы уже пытались получить или ввести код — теперь нужна пауза.</string>
+    <string name="auth_wait_confirmation_ok">Хорошо</string>
+    <string name="auth_wait_confirmation_timer">Отправим код через %s</string>
+    <string name="auth_wait_confirmation_timer_minutes_seconds">%1$d мин %2$d сек</string>
+    <string name="auth_wait_confirmation_timer_seconds">%d сек</string>
+    <string name="auth_wait_confirmation_title">Нужно подождать</string>
+    <string name="auth_yandex_acquire_login_ok">Хорошо</string>
+    <string name="auth_yandex_acquire_login_screen_title">Вы уже перешли в ЮMoney</string>
+    <string name="auth_yandex_acquire_login_text">"И это отличные новости: прямо сейчас вы можете просто войти в профиль. Используйте почту, которую указали при переходе. 
+"</string>
+    <string name="auth_yandex_acquire_registration_faq">Вопросы и ответы</string>
+    <string name="auth_yandex_acquire_registration_ok">Создать новый профиль</string>
+    <string name="auth_yandex_acquire_registration_screen_title">Такого профиля у нас нет</string>
+    <string name="auth_yandex_acquire_registration_support">Обратиться в поддержку</string>
+    <string name="auth_yandex_acquire_registration_text">Попробуйте войти с другой почтой или создайте новый профиль.</string>
+    <string name="auth_yandex_acquire_welcome_ok">Понятно, к делу!</string>
+    <string name="auth_yandex_acquire_welcome_screen_title">Пора перейти в ЮMoney</string>
+    <string name="auth_yandex_acquire_welcome_text">"Раньше вы заходили в кошелёк с логином и паролем Яндекса, теперь вместо них нужен профиль ЮMoney. 
+Сейчас поможем его получить: 
+— вы зайдёте с логином и паролем Яндекса, 
+— разрешите ЮMoney доступ к имени и почте, 
+— придумаете новый пароль. 
+У вас появится профиль ЮMoney с прежним кошельком внутри. Для входа — почта и пароль, для подтверждений — смс-коды. "</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string name="close_drawer">Закрыть меню навигации</string>
+    <string name="close_sheet">Закрыть лист</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="copy_toast_msg">Ссылка скопирована в буфер обмена.</string>
+    <string name="default_error_message">Неправильный ввод</string>
+    <string name="default_popup_window_title">Всплывающее окно</string>
+    <string name="dropdown_menu">Раскрывающееся меню</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="fallback_menu_item_copy_link">Копировать ссылку</string>
+    <string name="fallback_menu_item_open_in_browser">Открыть в браузере</string>
+    <string name="fallback_menu_item_share_link">Отправить ссылку</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string name="in_progress">Выполняется</string>
+    <string name="indeterminate">Флажок не установлен и не снят</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="nav_app_bar_navigate_up_description">Перейти вверх</string>
+    <string name="nav_app_bar_open_drawer_description">Открыть панель навигации</string>
+    <string name="navigation_menu">Меню навигации</string>
+    <string name="not_selected">Не выбрано</string>
+    <string name="off">Отключено</string>
+    <string name="on">Включено</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="range_end">Конец диапазона</string>
+    <string name="range_start">Начало диапазона</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="selected">Выбрано</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="tab">Вкладка</string>
+    <string name="template_percent">Процентов: %1$d.</string>
+    <string name="wallet_buy_button_place_holder">Купить через Google</string>
+    <string name="ym_allow_wallet_linking">В следующий раз не придётся входить в профиль ЮMoney — можно будет оплатить быстрее</string>
+    <string name="ym_auth_hint_emergency">Введите аварийный код</string>
+    <string name="ym_auth_hint_password">Введите код доступа</string>
+    <string name="ym_auth_hint_sms">Введите код из смс</string>
+    <string name="ym_auth_hint_totp">Введите одноразовый пароль</string>
+    <string name="ym_auto_write_off_and_save_card_body">"Если вы это разрешили, мы сохраним для этого магазина и его партнёров данные вашей банковской карты — номер, имя владельца, срок действия (всё, кроме кода CVC). В следующий раз не нужно будет их вводить, чтобы заплатить в этом магазине. 
+ 
+Кроме того, мы привяжем карту (в том числе использованную через Google Pay) к магазину. После этого магазин сможет присылать запросы на автоматические списания денег — тогда платёж выполняется без дополнительного подтверждения с вашей стороны. 
+ 
+Автосписания продолжатся даже при перевыпуске карты, если ваш банк умеет автоматически обновлять данные. Отключить их и отвязать карту можно в любой момент — через службу поддержки магазина."</string>
+    <string name="ym_auto_write_off_and_save_card_title">"Автосписания 
+и сохранение платёжных данных"</string>
+    <string name="ym_auto_write_off_approve_with_switch">Разрешить автосписания</string>
+    <string name="ym_auto_write_off_approve_without_switch">Разрешим автосписания</string>
+    <string name="ym_auto_write_off_save_payments_with_switch">Разрешить автосписания и сохранить платёжные данные</string>
+    <string name="ym_auto_write_off_save_payments_without_switch">Разрешим автосписания и сохраним платёжные данные</string>
+    <string name="ym_back_action">Назад</string>
+    <string name="ym_cancel_action">Отменить</string>
+    <string name="ym_card_number_hint">Введите или отсканируйте</string>
+    <string name="ym_card_number_only_enter_hint">Введите</string>
+    <string name="ym_card_number_title">Номер карты</string>
+    <string name="ym_check_card_number_error">Проверьте номер карты</string>
+    <string name="ym_check_cvc">Проверьте CVC код</string>
+    <string name="ym_check_expiry_error">Проверьте месяц и год</string>
+    <string name="ym_confirm_retry_timer_text">Получить новый код через %s</string>
+    <string name="ym_contract_continue">Продолжить</string>
+    <string name="ym_contract_fee">Включая комиссию</string>
+    <string name="ym_contract_link_card_title">Привязать карту</string>
+    <string name="ym_contract_link_wallet_title">Запомнить меня</string>
+    <string name="ym_contract_save_payment_method_gpay_switch_title">Разрешить автосписания</string>
+    <string name="ym_contract_save_payment_method_wallet_switch_title">Разрешить автосписания</string>
+    <string name="ym_contract_save_payment_method_wallet_title">Разрешим автосписания</string>
+    <string name="ym_cvc_hint">CVC</string>
+    <string name="ym_cvc_title">Код</string>
+    <string name="ym_error_no_internet">Проблема с интернетом. Попробуйте ещё раз, когда будете онлайн</string>
+    <string name="ym_error_something_went_wrong">Похоже, это техническая ошибка</string>
+    <string name="ym_expiry_mm_yy_hint">ММ/ГГ</string>
+    <string name="ym_expiry_title">Срок действия</string>
+    <string name="ym_google_pay_description">Дальше откроем приложение Google Pay — подтвердите оплату</string>
+    <string name="ym_how_unbind_wallet_card_body">"Для этого зайдите в настройки кошелька на сайте или в приложении ЮMoney. 
+В приложении: нажмите на свою аватарку, выберите «Банковские карты», смахните нужную карту влево и нажмите «Удалить».
+На сайте: перейдите в настройки кошелька, откройте вкладку «Привязанные карты», найдите нужную карту и нажмите «Отвязать»."</string>
+    <string name="ym_how_unbind_wallet_card_title">Как отвязать карту от кошелька</string>
+    <string name="ym_how_works_auto_write_body">"Если вы согласитесь на автосписания, мы привяжем банковскую карту (в том числе использованную через Google Pay) к магазину. После этого магазин сможет присылать запросы на автоматические списания денег — тогда платёж выполняется без дополнительного подтверждения с вашей стороны. 
+ 
+Автосписания продолжатся даже при перевыпуске карты, если ваш банк умеет автоматически обновлять данные. Отключить их и отвязать карту можно в любой момент — через службу поддержки магазина."</string>
+    <string name="ym_how_works_auto_write_title">Как работают автоматические списания</string>
+    <string name="ym_informer_unbind_action">Подробнее</string>
+    <string name="ym_informer_unbind_card_wallet">Отвязать эту карту можно только в настройках кошелька</string>
+    <string name="ym_informer_unbind_text">После удаления карты останутся автосписания. Отключить их можно через службу поддержки магазина</string>
+    <string name="ym_label_phone_in_sbol">Ваш телефон в СберБанк Онлайн</string>
+    <string name="ym_license_agreement_part_1">Нажимая кнопку, вы принимаете</string>
+    <string name="ym_license_agreement_part_2">условия сервиса</string>
+    <string name="ym_license_agreement_url">https://yoomoney.ru/page?id=526623</string>
+    <string name="ym_linked_card">Банковская карта</string>
+    <string name="ym_linked_not_wallet_card">Банковская карта</string>
+    <string name="ym_linked_wallet_card">Карта ЮMoney</string>
+    <string name="ym_logout_dialog_button_negative">Отмена</string>
+    <string name="ym_logout_dialog_button_positive">Выйти</string>
+    <string name="ym_logout_dialog_message">Уверены, что хотите выйти из профиля %1$s?</string>
+    <string name="ym_migration_banner_button_text">Подробнее</string>
+    <string name="ym_migration_banner_text">Если вы регистрировались до 21 октября — нужно перейти в ЮMoney</string>
+    <string name="ym_navigation_item_back">Назад</string>
+    <string name="ym_no_payment_options_error">Нет доступных способов оплаты</string>
+    <string name="ym_no_wallet_dialog_message">У вас нет кошелька ЮMoney</string>
+    <string name="ym_no_wallet_dialog_shoose_payment_option">Выбрать способ оплаты</string>
+    <string name="ym_payment_auth_no_attempts">Попытки закончились, нужно получить новый код</string>
+    <string name="ym_payment_auth_retry_text">Повторить</string>
+    <string name="ym_payment_auth_wrong_code">Это не тот код. Проверьте и попробуйте ещё раз</string>
+    <string name="ym_payment_auth_wrong_code_try_again">Это не тот код. Проверьте и попробуйте ещё раз</string>
+    <string name="ym_payment_auth_wrong_code_with_attempts">Снова не тот код. Осталось попыток: %d</string>
+    <string name="ym_payment_option_google_pay">Google Pay</string>
+    <string name="ym_payment_option_new_card">Банковская карта</string>
+    <string name="ym_payment_option_yoomoney">ЮMoney</string>
+    <string name="ym_payment_options_title">Способ оплаты</string>
+    <string name="ym_retry">Попробовать ещё раз</string>
+    <string name="ym_safe_payments_agreement_message">"Такое может быть, если вы платите на интернет-площадке, которая позволяет покупать одновременно у нескольких продавцов (например, на маркетплейсе). 
+Уточнить список получателей платежа можно на площадке, на которой вы совершаете платёж."</string>
+    <string name="ym_safe_payments_agreement_part_1">У платежа может быть</string>
+    <string name="ym_safe_payments_agreement_part_2">несколько получателей</string>
+    <string name="ym_safe_payments_agreement_title">Почему у платежа несколько получателей</string>
+    <string name="ym_save_card_body">"Если вы это разрешили, мы сохраним для этого магазина и его партнёров данные вашей банковской карты — номер, имя владельца и срок действия (всё, кроме кода CVC). В следующий раз не нужно будет вводить их, чтобы заплатить в этом магазине. 
+ 
+Удалить данные карты можно в процессе оплаты (нажмите на три точки напротив карты и выберите «Удалить карту») или через службу поддержки."</string>
+    <string name="ym_save_card_title">Сохранение платёжных данных</string>
+    <string name="ym_save_payment_details_with_switch">Сохранить платёжные данные</string>
+    <string name="ym_save_payment_details_without_switch">Сохраним платёжные данные</string>
+    <string name="ym_save_payment_method_bank_card_additional_info">Автосписания продолжатся даже при перевыпуске карты, если ваш банк умеет автоматически обновлять данные. Отключить их и отвязать карту можно в любой момент — через службу поддержки магазина.</string>
+    <string name="ym_save_payment_method_bank_card_info_text">"Если вы согласитесь на автосписания,  мы привяжем банковскую карту (в том числе использованную через Google Pay)  к магазину. После этого магазин сможет присылать запросы на автоматические списания денег — тогда платёж выполняется без дополнительного подтверждения с вашей стороны. "</string>
+    <string name="ym_save_payment_method_bank_card_info_title">Как работают автоматические списания</string>
+    <string name="ym_save_payment_method_bank_card_message_text_part_1">Заплатив здесь, вы разрешаете запомнить карту и</string>
+    <string name="ym_save_payment_method_bank_card_message_text_part_2">списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_bank_card_switch_text_part_1">После оплаты запомним эту карту: магазин сможет</string>
+    <string name="ym_save_payment_method_bank_card_switch_text_part_2">списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_gpay_switch_text_part_1">"После оплаты запомним эту карту: магазин сможет "</string>
+    <string name="ym_save_payment_method_gpay_switch_text_part_2">списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_linked_card_auto_write_off_message_text_part_1">Заплатив здесь, вы соглашаетесь </string>
+    <string name="ym_save_payment_method_linked_card_auto_write_off_message_text_part_2">сохранить данные карты и списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_linked_card_auto_write_off_message_text_with_switch_part_1">После оплаты магазин</string>
+    <string name="ym_save_payment_method_linked_card_auto_write_off_message_text_with_switch_part_2">сохранит данные карты и сможет списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_linked_card_message_text_part_1">Заплатив здесь, вы разрешаете запомнить эту карту и </string>
+    <string name="ym_save_payment_method_linked_card_message_text_part_2">списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_linked_card_message_text_with_switch_part_1">После оплаты запомним эту карту: магазин сможет</string>
+    <string name="ym_save_payment_method_linked_card_message_text_with_switch_part_2">списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_part_1">Магазин</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_part_2">сохранит данные вашей карты</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_part_3"> — в следующий раз можно будет их не вводить</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_with_switch_part_1">Заплатив здесь, вы разрешаете магазину</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_with_switch_part_2">сохранить данные вашей карты</string>
+    <string name="ym_save_payment_method_linked_saved_card_message_text_with_switch_part_3">— в следующий раз можно их не вводить</string>
+    <string name="ym_save_payment_method_title">Запомним карту</string>
+    <string name="ym_save_payment_method_wallet_info_text">Это значит, что вы разрешаете ЮMoney списывать деньги с кошелька по запросу магазина, без дополнительного подтверждения с вашей стороны. Отключить такие списания можно в любой момент — в настройках кошелька (на сайте ЮMoney).</string>
+    <string name="ym_save_payment_method_wallet_info_title">Разрешение списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_wallet_message_text_part_1">Заплатив здесь, вы разрешаете запомнить этот кошелёк и</string>
+    <string name="ym_save_payment_method_wallet_message_text_part_2">списывать деньги без вашего участия</string>
+    <string name="ym_save_payment_method_wallet_switch_text_part_1">Магазин сможет</string>
+    <string name="ym_save_payment_method_wallet_switch_text_part_2">списывать деньги без вашего участия</string>
+    <string name="ym_saved_card">Банковская карта</string>
+    <string name="ym_sber_pay_description">Дальше откроем приложение СберБанк Онлайн — подтвердите оплату</string>
+    <string name="ym_sber_phone_input_info">Телефон для подтверждения оплаты в СберБанк Онлайн</string>
+    <string name="ym_sberbank">SberPay</string>
+    <string name="ym_server_error">Похоже, это техническая ошибка</string>
+    <string name="ym_support_email">support@yoomoney.ru</string>
+    <string name="ym_support_help_url">https://yoomoney.ru/page?id=536720</string>
+    <string name="ym_support_phone">+78002506699</string>
+    <string name="ym_unbind_card_action">Удалить карту</string>
+    <string name="ym_unbinding_alert_message">После удаления карты останутся автосписания. Отключить их можно через службу поддержки магазина</string>
+    <string name="ym_unbinding_card_failed">Не получилось удалить карту ••••%s</string>
+    <string name="ym_unbinding_card_success">Карта ••••%s удалена</string>
+    <string name="ym_understand_button">Понятно</string>
+    <string name="ym_unknown_error">Похоже, это техническая ошибка</string>
+    <string name="ym_wrong_passcode_error">Неправильный пароль</string>
+    <string name="ym_yoo_login_to_pay">Чтобы заплатить через ЮMoney, войдите в профиль</string>
+    <string name="ym_yoo_money_logout">Выйти</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.yoomoney.sdk.auth.ui.TopBarDefault android:id="@id/appBar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/close" android:layout_width="@dimen/image_size_small" android:layout_height="@dimen/image_size_small" android:layout_margin="@dimen/ym_spaceM" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ru.yoomoney.sdk.auth.ui.EmptyStateLargeView android:id="@id/error_container" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appBar" app:ym_state_action="@string/auth_qr_failure_rescan" app:ym_state_icon="@drawable/ic_close_m" />
+</androidx.constraintlayout.widget.ConstraintLayout>

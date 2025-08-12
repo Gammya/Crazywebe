@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="ym_MainDialogTheme" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@drawable/ym_dialog_background</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+@keyframes anim_abc_fade_in {0% { opacity: 0.0; } 100% { opacity: 1.0; }}
+.anim_abc_fade_in { animation: anim_abc_fade_in 1000ms linear 1;}
+@keyframes anim_abc_fade_out {0% { opacity: 1.0; } 100% { opacity: 0.0; }}
+.anim_abc_fade_out { animation: anim_abc_fade_out 1000ms linear 1;}
+@keyframes anim_abc_slide_in_bottom {0% { transform: translate(0, 50.0%p); } 100% { transform: translate(0, 0.0); }}
+.anim_abc_slide_in_bottom { animation: anim_abc_slide_in_bottom 1000ms linear 1;}
+@keyframes anim_abc_slide_in_top {0% { transform: translate(0, -50.0%p); } 100% { transform: translate(0, 0.0); }}
+.anim_abc_slide_in_top { animation: anim_abc_slide_in_top 1000ms linear 1;}
+@keyframes anim_abc_slide_out_bottom {0% { transform: translate(0, 0.0); } 100% { transform: translate(0, 50.0%p); }}
+.anim_abc_slide_out_bottom { animation: anim_abc_slide_out_bottom 1000ms linear 1;}
+@keyframes anim_abc_slide_out_top {0% { transform: translate(0, 0.0); } 100% { transform: translate(0, -50.0%p); }}
+.anim_abc_slide_out_top { animation: anim_abc_slide_out_top 1000ms linear 1;}
+@keyframes anim_abc_tooltip_enter {0% { opacity: 0.0; } 100% { opacity: 1.0; }}
+.anim_abc_tooltip_enter { animation: anim_abc_tooltip_enter 1000ms linear 1;}
+@keyframes anim_abc_tooltip_exit {0% { opacity: 1.0; } 100% { opacity: 0.0; }}
+.anim_abc_tooltip_exit { animation: anim_abc_tooltip_exit 1000ms linear 1;}
+@keyframes anim_design_snackbar_in {0% { transform: translate(0, 100.0%); } 100% { transform: translate(0, 0.0); }}
+.anim_design_snackbar_in { animation: anim_design_snackbar_in 1000ms linear 1;}
+@keyframes anim_design_snackbar_out {0% { transform: translate(0, 0.0); } 100% { transform: translate(0, 100.0%); }}
+.anim_design_snackbar_out { animation: anim_design_snackbar_out 1000ms linear 1;}
+@keyframes anim_fade_in {0% { opacity: 0.0; } 100% { opacity: 1.0; }}
+.anim_fade_in { animation: anim_fade_in 1000ms linear 1;}
+@keyframes anim_fade_in_medium {0% { opacity: 0.0; } 100% { opacity: 1.0; }}
+.anim_fade_in_medium { animation: anim_fade_in_medium 1000ms linear 1;}
+@keyframes anim_fade_out {0% { opacity: 1.0; } 100% { opacity: 0.0; }}
+.anim_fade_out { animation: anim_fade_out 1000ms linear 1;}
+@keyframes anim_fade_out_medium {0% { opacity: 1.0; } 100% { opacity: 0.0; }}
+.anim_fade_out_medium { animation: anim_fade_out_medium 1000ms linear 1;}
+@keyframes anim_nav_default_enter_anim {0% { opacity: 0.0; } 100% { opacity: 1.0; }}
+.anim_nav_default_enter_anim { animation: anim_nav_default_enter_anim 1000ms linear 1;}
+@keyframes anim_nav_default_exit_anim {0% { opacity: 1.0; } 100% { opacity: 0.0; }}
+.anim_nav_default_exit_anim { animation: anim_nav_default_exit_anim 1000ms linear 1;}
+@keyframes anim_nav_default_pop_enter_anim {0% { opacity: 0.0; } 100% { opacity: 1.0; }}
+.anim_nav_default_pop_enter_anim { animation: anim_nav_default_pop_enter_anim 1000ms linear 1;}
+@keyframes anim_nav_default_pop_exit_anim {0% { opacity: 1.0; } 100% { opacity: 0.0; }}
+.anim_nav_default_pop_exit_anim { animation: anim_nav_default_pop_exit_anim 1000ms linear 1;}
+@keyframes anim_onesignal_fade_in {0% { opacity: 0.0; } 100% { opacity: 1.0; }}
+.anim_onesignal_fade_in { animation: anim_onesignal_fade_in 0ms linear 1;}
+@keyframes anim_onesignal_fade_out {0% { opacity: 1.0; } 100% { opacity: 0.0; }}
+.anim_onesignal_fade_out { animation: anim_onesignal_fade_out 0ms linear 1;}

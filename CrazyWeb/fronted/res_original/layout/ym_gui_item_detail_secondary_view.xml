@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/ym_spaceXS" app:layout_constraintEnd_toStartOf="@id/value" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_goneMarginEnd="0.0dip" app:layout_goneMarginLeft="0.0dip" app:layout_goneMarginStart="0.0dip" style="@style/Text.Body.Secondary" />
+    <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:gravity="end" android:id="@id/value" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toEndOf="@id/title" app:layout_constraintTop_toTopOf="@id/title" style="?ym_ValueTextAppearance" />
+    <ru.yoomoney.sdk.gui.widget.text.TextCaption1View android:gravity="end" android:id="@id/sub_value" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_space3XS" android:layout_marginStart="@dimen/ym_spaceXS" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toEndOf="@id/title" app:layout_constraintTop_toBottomOf="@id/value" style="?ym_SubvalueTextAppearance" />
+</merge>

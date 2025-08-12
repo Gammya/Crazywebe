@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_border">#1fffffff</color>
+    <color name="color_card">#ff2a2b2d</color>
+    <color name="color_card_shadow">#002a2b2d</color>
+    <color name="color_default">#ff18191a</color>
+    <color name="color_default_shadow">#0018191a</color>
+    <color name="color_divider">#0dffffff</color>
+    <color name="color_ghost">#29ffffff</color>
+    <color name="color_inverse">#ff080808</color>
+    <color name="color_ripple">#14ffffff</color>
+    <color name="color_type_ghost">#ff5e5e5e</color>
+    <color name="color_type_primary">#ffffffff</color>
+    <color name="color_type_secondary">#ffa3a3a3</color>
+    <color name="gui_color_bar_inverse">#521c1f21</color>
+    <color name="ym_avatar_background">#26ffffff</color>
+    <color name="ym_avatar_foreground">#ffa3a3a3</color>
+    <color name="ym_background_color">#ff1b1f22</color>
+    <color name="ym_bank_card_color">#ff1b1f22</color>
+    <color name="ym_bank_card_stroke_color">#1fffffff</color>
+    <color name="ym_colorPrimary">#ffffffff</color>
+    <color name="ym_divider">#1fffffff</color>
+    <color name="ym_informer_view_background">#ff151515</color>
+    <color name="ym_informer_view_message_text">#ffa3a3a3</color>
+    <color name="ym_text_color_secondary">#ffffffff</color>
+    <color name="ym_text_primary">#ffffffff</color>
+</resources>

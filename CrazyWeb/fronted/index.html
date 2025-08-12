@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Crazy Time — Прогноз сигнала и колесо</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="animations.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><img src="assets/images/logo.png" alt="logo" onerror="this.style.display='none'"><h1>Crazy Time — Прогноз</h1></div>
+    <div class="meta">
+      <button id="predictBtn" class="btn">Прогноз и Крутить</button>
+      <button id="syncBtn" class="btn secondary">Синхронизация (последний)</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="wheel-section">
+      <canvas id="wheelCanvas" width="600" height="600"></canvas>
+      <div id="wheelStatus" class="status"></div>
+    </section>
+
+    <section class="predictions-section">
+      <h2>Текущий прогноз</h2>
+      <div id="predBox" class="card"></div>
+    </section>
+
+    <section class="history-section">
+      <h2>История прогнозов</h2>
+      <div id="history" class="history-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">Модель: backend → прогнозы; колесо: визуализация. Не используйте для реальных ставок.</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

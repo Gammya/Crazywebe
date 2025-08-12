@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/delete" android:background="@color/color_alert" android:visibility="invisible" android:layout_width="@dimen/ym_space5XL" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@null" app:srcCompat="@drawable/ym_ic_delete_item" />
+    <include android:id="@id/item" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/ym_item_common" />
+</FrameLayout>

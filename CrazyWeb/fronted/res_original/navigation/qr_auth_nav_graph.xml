@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/qrAuthInfoFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="QrAuthFragment" android:name="ru.yoomoney.sdk.auth.qrAuth.info.QrAuthInfoFragment" android:id="@id/qrAuthInfoFragment">
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="config" app:argType="ru.yoomoney.sdk.auth.Config" app:nullable="false" />
+    </fragment>
+    <fragment android:label="QrAuthFailureFragment" android:name="ru.yoomoney.sdk.auth.qrAuth.failure.QrAuthFailureFragment" android:id="@id/qrAuthFailureFragment">
+        <argument android:name="failure" android:defaultValue="@null" app:argType="ru.yoomoney.sdk.auth.model.Failure" app:nullable="true" />
+    </fragment>
+    <fragment android:label="QrAuthSuccessFragment" android:name="ru.yoomoney.sdk.auth.qrAuth.success.QrAuthSuccessFragment" android:id="@id/qrAuthSuccessFragment" />
+</navigation>

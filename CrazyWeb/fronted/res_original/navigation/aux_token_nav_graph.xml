@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/auxTokenIssueFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="AuxTokenIssueFragment" android:name="ru.yoomoney.sdk.auth.auxToken.AuxTokenIssueFragment" android:id="@id/auxTokenIssueFragment">
+        <argument android:name="token" app:argType="string" app:nullable="false" />
+        <argument android:name="scopes" app:argType="string[]" app:nullable="false" />
+        <argument android:name="authCenterClientId" app:argType="string" app:nullable="false" />
+    </fragment>
+</navigation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/payImage" android:layout_width="@dimen/ym_space3XL" android:layout_height="@dimen/ym_space3XL" android:src="@drawable/ym_ic_google_pay" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/payTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ym_google_pay_description" android:maxLines="3" android:includeFontPadding="false" android:layout_marginStart="@dimen/ym_space_s" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/payImage" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Body" />
+</androidx.constraintlayout.widget.ConstraintLayout>

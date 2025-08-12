@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.yoomoney.sdk.auth.ui.TopBarDefault android:id="@id/appBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ru.yoomoney.sdk.gui.widget.StateFlipViewGroup android:id="@id/stateFlipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:animateFirstView="false">
+        <ScrollView android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="@dimen/image_size_large" android:layout_height="@dimen/image_size_large" />
+                <ru.yoomoney.sdk.gui.widget.headline.HeadlineSecondaryLargeView android:id="@id/personal_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auth_passport_profile_personal_data" />
+                <ru.yoomoney.sdk.auth.ui.FormSelectView android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ym_title="@string/auth_passport_profile_email" app:ym_value="@string/auth_passport_profile_email_change" />
+                <ru.yoomoney.sdk.auth.ui.FormSelectView android:id="@id/phone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ym_title="@string/auth_passport_profile_phone" app:ym_value="@string/auth_passport_profile_phone_change" />
+                <ru.yoomoney.sdk.auth.ui.FormSelectView android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ym_title="@string/auth_passport_profile_name" app:ym_value="@string/auth_passport_profile_name_change" />
+                <ru.yoomoney.sdk.gui.widget.headline.HeadlineSecondaryLargeView android:id="@id/security" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auth_passport_profile_security" />
+                <ru.yoomoney.sdk.auth.ui.FormSelectView android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ym_title="@string/auth_passport_profile_password" app:ym_value="@string/auth_passport_profile_password_change" />
+                <ru.yoomoney.sdk.gui.widget.headline.HeadlineSecondaryLargeView android:id="@id/socialAccountsTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auth_passport_profile_social_accounts_title" />
+                <ru.yoomoney.sdk.gui.widgetV2.list.item_tag.ItemImageTagView android:id="@id/linkSberAction" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ym_leftIcon="@drawable/ic_sber_logo" app:ym_title="@string/auth_passport_profile_sber_account_title" />
+            </LinearLayout>
+        </ScrollView>
+        <ru.yoomoney.sdk.auth.ui.ProgressBar android:layout_gravity="center" android:id="@id/progress_container" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+        <ru.yoomoney.sdk.auth.ui.EmptyStateLargeView android:id="@id/error_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ru.yoomoney.sdk.gui.widget.StateFlipViewGroup>
+</LinearLayout>

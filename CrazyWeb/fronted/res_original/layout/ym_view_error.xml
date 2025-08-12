@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:padding="@dimen/ym_space_m" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:gravity="center" android:layout_gravity="center" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/ym_iconPlusText_iconMargin_xl" style="@style/Text.Body.Secondary" />
+    <ru.yoomoney.sdk.kassa.payments.ui.FlatButtonView android:gravity="center_horizontal" android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_decor_marginTop_xl" android:textAllCaps="true" />
+</LinearLayout>

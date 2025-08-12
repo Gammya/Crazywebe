@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/passportProfileFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="PassportProfileFragment" android:name="ru.yoomoney.sdk.auth.passport.PassportProfileFragment" android:id="@id/passportProfileFragment">
+        <argument android:name="account" android:defaultValue="@null" app:argType="ru.yoomoney.sdk.auth.account.model.UserAccount" app:nullable="true" />
+        <argument android:name="processError" android:defaultValue="@null" app:argType="ru.yoomoney.sdk.auth.model.ProcessError" app:nullable="true" />
+        <argument android:name="processTypeCode" android:defaultValue="-1" app:argType="integer" app:nullable="false" />
+        <argument android:name="successMessage" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="EmailConfirmFragment" android:name="ru.yoomoney.sdk.auth.email.confirm.EmailConfirmFragment" android:id="@id/emailConfirmFragment">
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="expireAt" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+        <argument android:name="email" app:argType="string" app:nullable="false" />
+        <argument android:name="secretLength" android:defaultValue="6" app:argType="integer" />
+        <argument android:name="nextResendFrom" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+        <argument android:name="processType" app:argType="ru.yoomoney.sdk.auth.ProcessType" app:nullable="false" />
+        <argument android:name="isCurrentUserAccountEmail" android:defaultValue="false" app:argType="boolean" app:nullable="false" />
+        <argument android:name="applicationInfo" android:defaultValue="@null" app:argType="ru.yoomoney.sdk.auth.model.ApplicationInfo" app:nullable="true" />
+    </fragment>
+    <fragment android:label="PhoneEnterFragment" android:name="ru.yoomoney.sdk.auth.phone.enter.PhoneEnterFragment" android:id="@id/phoneEnterFragment">
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="expireAt" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+        <argument android:name="countryCodes" app:argType="ru.yoomoney.sdk.auth.model.CountryCallingCode[]" />
+        <argument android:name="processType" app:argType="ru.yoomoney.sdk.auth.ProcessType" app:nullable="false" />
+        <argument android:name="prefilledPhone" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="PhoneConfirmFragment" android:name="ru.yoomoney.sdk.auth.phone.confirm.PhoneConfirmFragment" android:id="@id/phoneConfirmFragment">
+        <argument android:name="processType" app:argType="ru.yoomoney.sdk.auth.ProcessType" app:nullable="false" />
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="expireAt" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+        <argument android:name="phone" app:argType="string" app:nullable="false" />
+        <argument android:name="secretLength" android:defaultValue="6" app:argType="integer" />
+        <argument android:name="nextResendFrom" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+    </fragment>
+    <fragment android:label="PasswordEnterFragment" android:name="ru.yoomoney.sdk.auth.password.enter.PasswordEnterFragment" android:id="@id/passwordEnterFragment">
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="account" app:argType="ru.yoomoney.sdk.auth.model.Account" app:nullable="true" />
+        <argument android:name="processType" app:argType="ru.yoomoney.sdk.auth.ProcessType" app:nullable="false" />
+        <argument android:name="expireAt" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+    </fragment>
+    <fragment android:label="EmailEnterFragment" android:name="ru.yoomoney.sdk.auth.email.enter.EmailEnterFragment" android:id="@id/emailEnterFragment">
+        <argument android:name="processType" app:argType="ru.yoomoney.sdk.auth.ProcessType" app:nullable="false" />
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="expireAt" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+        <argument android:name="prefilledEmail" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="NicknameFragment" android:name="ru.yoomoney.sdk.auth.nickname.NicknameFragment" android:id="@id/nicknameFragment">
+        <argument android:name="nickname" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="TechnicalSupportFragment" android:name="ru.yoomoney.sdk.auth.support.TechnicalSupportFragment" android:id="@id/technicalSupportFragment">
+        <argument android:name="title" app:argType="string" app:nullable="false" />
+        <argument android:name="description" app:argType="string" app:nullable="false" />
+    </fragment>
+    <fragment android:label="SelectAccountFragment" android:name="ru.yoomoney.sdk.auth.account.select.SelectAccountFragment" android:id="@id/selectAccountFragment">
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="accounts" app:argType="ru.yoomoney.sdk.auth.model.Account[]" app:nullable="false" />
+        <argument android:name="processType" app:argType="ru.yoomoney.sdk.auth.ProcessType" app:nullable="false" />
+        <argument android:name="expireAt" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+    </fragment>
+    <fragment android:label="PasswordCreateFragment" android:name="ru.yoomoney.sdk.auth.password.create.PasswordCreateFragment" android:id="@id/passwordCreateFragment">
+        <argument android:name="processType" app:argType="ru.yoomoney.sdk.auth.ProcessType" app:nullable="false" />
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="expireAt" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+        <argument android:name="isEmailSet" android:defaultValue="false" app:argType="boolean" app:nullable="false" />
+    </fragment>
+    <fragment android:label="AuthFinishingFailureFragment" android:name="ru.yoomoney.sdk.auth.finishing.failure.AuthFinishingFailureFragment" android:id="@id/authFinishingFailureFragment">
+        <argument android:name="processError" app:argType="ru.yoomoney.sdk.auth.model.ProcessError" app:nullable="false" />
+    </fragment>
+    <fragment android:label="LoginEnterFragment" android:name="ru.yoomoney.sdk.auth.login.LoginEnterFragment" android:id="@id/loginEnterFragment">
+        <argument android:name="processId" app:argType="string" app:nullable="false" />
+        <argument android:name="processType" app:argType="ru.yoomoney.sdk.auth.ProcessType" app:nullable="false" />
+        <argument android:name="expireAt" app:argType="org.threeten.bp.OffsetDateTime" app:nullable="false" />
+        <argument android:name="migrationInfo" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="passwordRecoverySuccess" android:defaultValue="false" app:argType="boolean" app:nullable="false" />
+    </fragment>
+    <fragment android:label="PasswordFinishFragment" android:name="ru.yoomoney.sdk.auth.password.finish.PasswordFinishFragment" android:id="@id/passwordFinishFragment" />
+    <fragment android:label="ConfirmationHelpFragment" android:name="ru.yoomoney.sdk.auth.confirmationHelp.ConfirmationHelpFragment" android:id="@id/confirmationHelpFragment">
+        <argument android:name="title" app:argType="string" app:nullable="false" />
+        <argument android:name="description" app:argType="string" app:nullable="false" />
+    </fragment>
+    <fragment android:label="OauthFailureFragment" android:name="ru.yoomoney.sdk.auth.oauth.failure.OauthFailureFragment" android:id="@id/oauthFailureFragment" />
+</navigation>

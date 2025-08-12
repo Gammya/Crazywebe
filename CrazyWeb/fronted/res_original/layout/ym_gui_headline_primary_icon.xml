@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.yoomoney.sdk.gui.widget.text.TextTitle3View android:ellipsize="end" android:id="@id/title" android:paddingBottom="@dimen/ym_spaceXS" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/ym_spaceXS" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/icon" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" android:padding="@dimen/ym_spaceXS" android:layout_width="@dimen/ym_space3XL" android:layout_height="@dimen/ym_space3XL" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</merge>

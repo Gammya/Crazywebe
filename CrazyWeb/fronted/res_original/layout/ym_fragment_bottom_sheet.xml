@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/ym_dialogWidth" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/topArrowLine" android:padding="@dimen/ym_space_xs" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ym_bottom_sheet_line" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/authContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/containerBottomSheet" android:background="@drawable/ym_bottom_sheet_dialog_rounded_top_corners" android:layout_width="@dimen/ym_dialogWidth" android:layout_height="fill_parent" />
+</LinearLayout>

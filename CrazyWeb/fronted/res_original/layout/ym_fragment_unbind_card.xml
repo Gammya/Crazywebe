@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootContainer" android:layout_width="@dimen/ym_dialogWidth" android:layout_height="3.0dip" android:measureAllChildren="false" android:transitionName="@string/ym_transition_name"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.yoomoney.sdk.kassa.payments.ui.DialogTopBar android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ru.yoomoney.sdk.kassa.payments.ui.view.BankCardView android:id="@id/bankCardView" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_spaceXL" android:layout_marginStart="@dimen/ym_space_m" android:layout_marginEnd="@dimen/ym_space_m" />
+    <ru.yoomoney.sdk.kassa.payments.ui.view.InformerView android:id="@id/informerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ym_spaceM" android:layout_marginStart="@dimen/ym_space_m" android:layout_marginEnd="@dimen/ym_space_m" />
+    <ru.yoomoney.sdk.gui.widget.button.PrimaryButtonView android:id="@id/unbindCardButton" android:background="@drawable/ym_btn_primary_red" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ym_spaceM" android:layout_marginRight="@dimen/ym_spaceM" android:layout_marginBottom="@dimen/ym_spaceM" app:ym_text="@string/ym_unbind_card_action" app:ym_text_color="@color/ym_button_text_alert" style="@style/YmButton.Flat" />
+</LinearLayout>

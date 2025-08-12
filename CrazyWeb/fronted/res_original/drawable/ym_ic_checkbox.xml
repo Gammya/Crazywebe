@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/ym_ic_checkbox_on_enable" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/ym_ic_checkbox_on_disable" />
+    <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/ym_ic_checkbox_off_enable" />
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/ym_ic_checkbox_off_disable" />
+</selector>

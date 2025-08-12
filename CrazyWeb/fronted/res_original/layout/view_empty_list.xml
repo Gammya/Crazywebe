@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/empty_icon" android:background="@drawable/ic_round_mask" android:layout_width="@dimen/empty_state_icon_big_size" android:layout_height="@dimen/empty_state_icon_big_size" android:layout_marginBottom="@dimen/ym_spaceM" android:scaleType="centerInside" android:tint="?colorFadeTint" android:backgroundTint="?colorGhostTint" />
+    <ru.yoomoney.sdk.gui.widget.text.TextTitle2View android:id="@id/empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ym_spaceM" style="@style/Text.Title.Light" />
+    <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:gravity="center" android:id="@id/empty_description" android:paddingLeft="@dimen/ym_space4XL" android:paddingRight="@dimen/ym_space4XL" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Body.Light.Secondary.LargeLineHeight" />
+    <ru.yoomoney.sdk.gui.widget.button.SecondaryButtonView android:id="@id/empty_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_spaceXL" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.yoomoney.sdk.gui.widget.StateFlipViewGroup android:id="@id/stateFlipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:animateFirstView="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content_container" android:background="@color/color_default" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ru.yoomoney.sdk.auth.ui.TopBarDefault android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ru.yoomoney.sdk.auth.ui.EmptyStateLargeView android:id="@id/waiting" android:layout_width="fill_parent" android:layout_height="fill_parent" app:ym_state_action="@string/auth_bindind_sber_id_waiting_action" app:ym_state_icon="@drawable/ic_pending_m" app:ym_state_subtitle="@string/auth_bindind_sber_id_waiting_subtitle" app:ym_state_title="@string/auth_bindind_sber_id_waiting_title" />
+    </FrameLayout>
+    <View android:id="@id/empty_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</ru.yoomoney.sdk.gui.widget.StateFlipViewGroup>

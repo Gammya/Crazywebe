@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:ym_state_elevated="true">
+        <set>
+            <objectAnimator android:duration="@integer/topbar_elevation_animation_duration" android:valueTo="@dimen/ym_elevationS" android:valueType="floatType" android:propertyName="translationZ" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:duration="@integer/topbar_elevation_animation_duration" android:valueTo="0" android:valueType="floatType" android:propertyName="translationZ" />
+        </set>
+    </item>
+</selector>

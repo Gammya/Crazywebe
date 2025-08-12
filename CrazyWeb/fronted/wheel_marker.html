@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Wheel Sector Marker — Разметка секторов Crazy Time</title>
+<style>
+  :root{--bg:#0f1420;--panel:#0b1220;--accent:#ffd54f;--muted:#98a3b3}
+  body{margin:0;font-family:Inter,Segoe UI,Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#061226 0,#0a1320 100%);color:#e6eef8}
+  .wrap{display:flex;gap:18px;padding:18px;align-items:flex-start}
+  .canvas-wrap{background:var(--panel);padding:12px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.6)}
+  #canvas{display:block;border-radius:8px;background:#000}
+  .controls{width:360px;max-height:80vh;overflow:auto;background:rgba(255,255,255,0.02);padding:14px;border-radius:10px}
+  .controls h2{margin:0 0 10px 0;color:var(--accent)}
+  .row{display:flex;gap:8px;margin:8px 0;align-items:center}
+  label{font-size:13px;color:var(--muted);min-width:110px}
+  input[type="range"]{width:160px}
+  button{background:var(--accent);border:none;padding:8px 12px;border-radius:8px;color:#08111a;font-weight:600;cursor:pointer}
+  .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#cfe4ff}
+  .list{margin-top:12px}
+  .item{display:flex;justify-content:space-between;padding:8px;border-radius:8px;background:rgba(255,255,255,0.02);margin-bottom:6px}
+  .small{font-size:12px;color:var(--muted)}
+  .hint{font-size:12px;color:#a8b9d0;margin-top:8px}
+  .actions{display:flex;gap:8px;margin-top:10px}
+  .coords{font-size:12px;color:var(--muted);margin-top:6px}
+</style>
+</head>
+<body>
+<div style="padding:12px 18px 6px 18px;color:#cfe4ff;">
+  <strong>Разметка секторов колеса — Crazy Time</strong> — кликни по центру сектора, введи метку, экспортируй JSON.
+</div>
+
+<div class="wrap">
+  <div class="canvas-wrap">
+    <canvas id="canvas" width="900" height="900"></canvas>
+    <div class="coords" id="coords">Центр: - , Радиус: -</div>
+  </div>
+
+  <div class="controls">
+    <h2>Настройки / Инструменты</h2>
+
+    <div class="row">
+      <label>Колесо (файл):</label>
+      <input id="inputWheel" type="file" accept="image/*">
+    </div>
+
+    <div class="row">
+      <label>Подсказка (photo):</label>
+      <input id="inputGuide" type="file" accept="image/*">
+    </div>
+
+    <div class="row">
+      <label>Прозрачность подсказки</label>
+      <input id="guideOpacity" type="range" min="0" max="100" value="40">
+      <span id="opVal" class="small">40%</span>
+    </div>
+
+    <div class="row">
+      <label>Центр X</label>
+      <input id="centerX" type="number" value="0" style="width:100px">
+      <label style="min-width:60px">Центр Y</label>
+      <input id="centerY" type="number" value="0" style="width:100px">
+    </div>
+
+    <div class="row">
+      <label>Радиус</label>
+      <input id="radius" type="number" value="300" style="width:120px">
+      <button id="autoCenter" class="btn-ghost">Авто центр</button>
+    </div>
+
+    <div class="row">
+      <label>Режим</label>
+      <select id="mode">
+        <option value="add">Добавлять метки</option>
+        <option value="edit">Редактировать / удалять</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label>Ввод метки</label>
+      <input id="labelInput" placeholder="например: one, two, cashhunt" style="flex:1">
+    </div>
+
+    <div class="actions">
+      <button id="clearAll" class="btn-ghost">Очистить всё</button>
+      <button id="exportJson">Export JSON</button>
+      <button id="downloadPreview" class="btn-ghost">Сохранить preview.png</button>
+    </div>
+
+    <div class="hint">Подсказка: кликай по центру сектора (на цветном радиальном поле). Держись одного направления (по часовой или против) для последовательности.</div>
+
+    <div class="list" id="list"></div>
+
+    <div style="margin-top:10px;">
+      <strong>Экспорт (формат)</strong>
+      <div class="small">JSON: [{index, label, angle_deg}] — angle_deg: угол сектора (0 — верх/стрелка, рост по часовой)</div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* wheel_marker.js — простой разметчик секторов */
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+let wheelImg = null, guideImg = null;
+let guideOpacity = 0.4;
+let items = []; // {index, label, angle}
+let center = {x: canvas.width/2, y: canvas.height/2};
+let radius = Math.min(canvas.width, canvas.height) * 0.38;
+let mode = 'add';
+let labelInput = document.getElementById('labelInput');
+const listEl = document.getElementById('list');
+const coordsEl = document.getElementById('coords');
+
+function clearCanvas(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+}
+function drawAll(){
+  clearCanvas();
+  // draw wheel base
+  if (wheelImg) {
+    // fit wheel image to canvas (max size by min dimension)
+    const scale = Math.min(canvas.width / wheelImg.width, canvas.height / wheelImg.height);
+    const w = wheelImg.width * scale;
+    const h = wheelImg.height * scale;
+    const x = (canvas.width - w)/2;
+    const y = (canvas.height - h)/2;
+    ctx.drawImage(wheelImg, x, y, w, h);
+    // update center default if not set manually
+    if (!center.manual) {
+      center.x = canvas.width/2;
+      center.y = canvas.height/2;
+    }
+  } else {
+    // placeholder circle
+    ctx.fillStyle = "#071026";
+    ctx.beginPath();
+    ctx.arc(center.x, center.y, radius, 0, Math.PI*2);
+    ctx.fill();
+  }
+  // guide overlay
+  if (guideImg){
+    ctx.save();
+    ctx.globalAlpha = guideOpacity;
+    const scale = Math.min(canvas.width / guideImg.width, canvas.height / guideImg.height);
+    const w = guideImg.width * scale;
+    const h = guideImg.height * scale;
+    const x = (canvas.width - w)/2;
+    const y = (canvas.height - h)/2;
+    ctx.drawImage(guideImg, x, y, w, h);
+    ctx.restore();
+  }
+
+  // draw center marker
+  ctx.save();
+  ctx.fillStyle = "#ffd54f";
+  ctx.beginPath();
+  ctx.arc(center.x, center.y, 4, 0, Math.PI*2);
+  ctx.fill();
+  ctx.restore();
+
+  // draw existing points and labels
+  items.forEach((it, i)=>{
+    // angle is degrees: 0 at top, clockwise
+    const a = (it.angle) * Math.PI/180;
+    const px = center.x + (radius*0.72) * Math.sin(a);
+    const py = center.y - (radius*0.72) * Math.cos(a);
+    // circle
+    ctx.fillStyle = "#00e5ff";
+    ctx.beginPath();
+    ctx.arc(px, py, 7, 0, Math.PI*2);
+    ctx.fill();
+    // line to center
+    ctx.strokeStyle = "rgba(255,255,255,0.06)";
+    ctx.beginPath(); ctx.moveTo(center.x, center.y); ctx.lineTo(px, py); ctx.stroke();
+    // text
+    ctx.fillStyle = "#e6eef8";
+    ctx.font = "14px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(it.label, px, py - 12);
+  });
+
+  // draw circle outline
+  ctx.save();
+  ctx.strokeStyle = "rgba(255,255,255,0.06)";
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.arc(center.x, center.y, radius, 0, Math.PI*2);
+  ctx.stroke();
+  ctx.restore();
+
+  coordsEl.textContent = `Центр: ${Math.round(center.x)}, ${Math.round(center.y)}  —  Радиус: ${Math.round(radius)}`;
+}
+
+function loadImageFile(file, target){
+  const reader = new FileReader();
+  reader.onload = e=>{
+    const img = new Image();
+    img.onload = ()=> {
+      if (target === 'wheel'){ wheelImg = img; }
+      else if (target === 'guide'){ guideImg = img; }
+      drawAll();
+    }
+    img.src = e.target.result;
+  }
+  reader.readAsDataURL(file);
+}
+
+document.getElementById('inputWheel').addEventListener('change', (ev)=>{
+  if(ev.target.files[0]) loadImageFile(ev.target.files[0],'wheel');
+});
+document.getElementById('inputGuide').addEventListener('change', (ev)=>{
+  if(ev.target.files[0]) loadImageFile(ev.target.files[0],'guide');
+});
+
+// opacity slider
+document.getElementById('guideOpacity').addEventListener('input', (e)=>{
+  const v = Number(e.target.value);
+  guideOpacity = v/100;
+  document.getElementById('opVal').textContent = v + '%';
+  drawAll();
+});
+
+// auto center: set center to image center & radius to half of min dimension
+document.getElementById('autoCenter').addEventListener('click', ()=>{
+  center.x = canvas.width/2; center.y = canvas.height/2;
+  radius = Math.min(canvas.width, canvas.height) * 0.45;
+  center.manual = false;
+  drawAll();
+});
+
+// manual center inputs
+document.getElementById('centerX').addEventListener('change', (e)=>{
+  center.x = Number(e.target.value); center.manual = true; drawAll();
+});
+document.getElementById('centerY').addEventListener('change', (e)=>{
+  center.y = Number(e.target.value); center.manual = true; drawAll();
+});
+document.getElementById('radius').addEventListener('change', (e)=>{
+  radius = Number(e.target.value); drawAll();
+});
+
+// mode
+document.getElementById('mode').addEventListener('change',(e)=>{ mode = e.target.value; });
+
+canvas.addEventListener('click', (ev)=>{
+  const rect = canvas.getBoundingClientRect();
+  const x = ev.clientX - rect.left;
+  const y = ev.clientY - rect.top;
+  // compute angle: 0 at top, clockwise
+  const dx = x - center.x, dy = y - center.y;
+  let ang = Math.atan2(dy, dx) * 180 / Math.PI; // -180..180, 0 at +x, CCW positive
+  // convert to 0 at top, clockwise positive:
+  ang = (ang + 90 + 360) % 360;
+  if (mode === 'add'){
+    const label = labelInput.value.trim();
+    if (!label){ alert('Введите метку сектора в поле "Ввод метки"'); return; }
+    items.push({index: items.length, label: label, angle: Math.round(ang*100)/100});
+    labelInput.value = '';
+    renderList();
+    drawAll();
+  } else {
+    // edit mode: find nearest item to clicked angle and allow edit/delete
+    if (items.length === 0) return;
+    let nearest = null; let minD = 1e9;
+    items.forEach((it, idx)=>{
+      const d = Math.abs(((it.angle - ang + 540) % 360) - 180); // circular distance
+      if (d < minD){ minD = d; nearest = idx; }
+    });
+    if (nearest !== null){
+      const it = items[nearest];
+      const newLabel = prompt('Редактировать метку (оставь пустой, чтобы удалить):', it.label);
+      if (newLabel === null) return;
+      if (newLabel.trim() === ''){
+        items.splice(nearest,1);
+      } else {
+        it.label = newLabel.trim();
+      }
+      renderList(); drawAll();
+    }
+  }
+});
+
+function renderList(){
+  listEl.innerHTML = '';
+  // sort by angle clockwise (0..360)
+  const sorted = items.slice().sort((a,b)=> a.angle - b.angle);
+  sorted.forEach((it, idx)=>{
+    const div = document.createElement('div');
+    div.className = 'item';
+    div.innerHTML = `<div><strong>#${idx+1}</strong> ${it.label}</div>
+      <div style="text-align:right">
+        <div class="small">${it.angle.toFixed(2)}°</div>
+        <div style="margin-top:6px"><button class="btn-ghost" data-i="${it.index}">Edit</button></div>
+      </div>`;
+    listEl.appendChild(div);
+  });
+  // attach edit buttons
+  listEl.querySelectorAll('button').forEach(b=>{
+    b.addEventListener('click',(ev)=>{
+      const idxAttr = ev.currentTarget.getAttribute('data-i');
+      const idx = items.findIndex(x=>x.index == idxAttr);
+      if (idx >= 0){
+        const newLabel = prompt('Редактировать метку (оставь пустой, чтобы удалить):', items[idx].label);
+        if (newLabel === null) return;
+        if (newLabel.trim() === '') items.splice(idx,1);
+        else items[idx].label = newLabel.trim();
+        renderList(); drawAll();
+      }
+    });
+  });
+}
+
+// export JSON
+document.getElementById('exportJson').addEventListener('click', ()=>{
+  if (items.length === 0){ alert('Нет меток для экспорта'); return; }
+  // create array sorted by angle ascending (0..360)
+  const arr = items.slice().sort((a,b)=> a.angle - b.angle).map((it,idx)=>({
+    index: idx,
+    label: it.label,
+    angle_deg: Math.round(it.angle*100)/100
+  }));
+  const blob = new Blob([JSON.stringify(arr, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a'); a.href=url; a.download = 'wheel_map.json'; a.click();
+  URL.revokeObjectURL(url);
+});
+
+// clear all
+document.getElementById('clearAll').addEventListener('click', ()=>{
+  if (!confirm('Очистить все метки?')) return;
+  items = []; renderList(); drawAll();
+});
+
+// save preview (canvas -> png)
+document.getElementById('downloadPreview').addEventListener('click', ()=>{
+  const a = document.createElement('a');
+  a.href = canvas.toDataURL('image/png');
+  a.download = 'wheel_preview.png';
+  a.click();
+});
+
+// allow manual center dragging (optional)
+let draggingCenter = false;
+canvas.addEventListener('mousedown',(e)=>{
+  const rect = canvas.getBoundingClientRect();
+  const x = e.clientX - rect.left, y = e.clientY - rect.top;
+  const d = Math.hypot(x-center.x, y-center.y);
+  if (d < 12){ draggingCenter=true; }
+});
+window.addEventListener('mousemove',(e)=>{
+  if (!draggingCenter) return;
+  const rect = canvas.getBoundingClientRect();
+  center.x = e.clientX - rect.left; center.y = e.clientY - rect.top;
+  center.manual = true;
+  document.getElementById('centerX').value = Math.round(center.x);
+  document.getElementById('centerY').value = Math.round(center.y);
+  drawAll();
+});
+window.addEventListener('mouseup',()=>{ draggingCenter=false; });
+
+// initial draw and optionally pre-load images if present in same folder via URLs
+// If you want to auto-load local files by filename, uncomment and adjust paths below:
+// (Note: due to browser local-file restrictions, this auto-load only works when files are served or chosen via input)
+// load by default example (disabled)
+drawAll();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ym_space5XL">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/ym_spaceM" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ru.yoomoney.sdk.gui.widget.text.TextTitle1View android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auth_wait_confirmation_title" />
+            <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_spaceM" android:text="@string/auth_wait_confirmation_content" />
+            <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:id="@id/timer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_space4XL" />
+        </LinearLayout>
+    </ScrollView>
+    <ru.yoomoney.sdk.auth.ui.PrimaryButtonView android:id="@id/confirmation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ym_spaceM" android:layout_marginEnd="@dimen/ym_spaceM" app:ym_text="@string/auth_wait_confirmation_ok" />
+</FrameLayout>

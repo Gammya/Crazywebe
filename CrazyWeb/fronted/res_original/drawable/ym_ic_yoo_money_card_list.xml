@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$ym_ic_yoo_money_card_list__0" android:pathData="M4,6h32a4,4 0,0 1,4 4v20a4,4 0,0 1,-4 4L4,34a4,4 0,0 1,-4 -4L0,10a4,4 0,0 1,4 -4z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M31.047,13.053v6.024L20.215,26.331l13.293,-4.234L33.508,13.053L36,13.053v14.524L19.603,27.577C18.03,27.577 18,25.93 18,25.93L18.03,14.186c0,-1.69 0.804,-2.37 1.573,-2.863 0.769,-0.493 11.428,-7.285 11.428,-7.285v9.015h0.016zM28.397,13.146c0.016,-0.888 -0.738,-1.311 -1.645,-0.917 -0.907,0.394 -1.687,1.406 -1.703,2.363 -0.016,0.888 0.739,1.312 1.645,0.917 0.907,-0.394 1.688,-1.474 1.703,-2.363z" android:strokeAlpha="0.3" android:fillAlpha="0.3" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_spaceXS" android:layout_marginBottom="@dimen/ym_spaceM">
+            <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ym_spaceXS" android:text="@string/auth_email_confirm_support_text" android:layout_marginStart="@dimen/ym_spaceM" android:layout_marginEnd="@dimen/ym_spaceM" style="@style/Text.Body.Secondary" />
+        </LinearLayout>
+    </ScrollView>
+    <ru.yoomoney.sdk.auth.ui.PrimaryButtonView android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ym_spaceM" android:layout_marginStart="@dimen/ym_spaceM" android:layout_marginEnd="@dimen/ym_spaceM" app:ym_text="@string/auth_email_confirm_support_button" />
+</LinearLayout>

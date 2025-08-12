@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_state_container" android:paddingTop="@dimen/ym_spaceM" android:paddingBottom="@dimen/ym_spaceXL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ym_spaceXL" android:paddingEnd="@dimen/ym_spaceXL"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/empty_icon" android:background="@drawable/ic_round_mask" android:layout_width="@dimen/empty_state_icon_big_size" android:layout_height="@dimen/empty_state_icon_big_size" android:layout_marginBottom="@dimen/ym_spaceXL" android:scaleType="centerInside" android:tint="?colorFadeTint" android:backgroundTint="?colorGhostTint" app:srcCompat="@drawable/ic_apply_m" />
+    <ru.yoomoney.sdk.gui.widget.text.TextTitle2View android:ellipsize="end" android:gravity="center" android:id="@id/empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ym_spaceXS" android:maxLines="4" />
+    <ru.yoomoney.sdk.gui.widget.text.TextBodyView android:ellipsize="end" android:gravity="center" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" style="@style/Text.Body.Ghost" />
+</LinearLayout>
